@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+4217879002.index
+3804612099.index
+3839152431.index
+918917628.index
+453349768.index
+3064316348.index

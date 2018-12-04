@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;JSEStockManagementStates3FloorsEndpoints&apos;" deleteContents="false" description="Delete resource &apos;JSEStockManagementStates3FloorsEndpoints&apos;" element1="/JSEStockManagementStates3FloorsEndpoints" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1543934213559"/>
+</session>

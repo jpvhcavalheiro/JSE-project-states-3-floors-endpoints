@@ -1,0 +1,12 @@
+package io.altar.repository;
+
+public class ShelfRepository {
+	private final static ShelfRepository INSTANCE = new ShelfRepository();
+
+	public static ShelfRepository getInstance() {
+		return INSTANCE;
+	}
+
+	private ShelfRepository() {
+	}
+}

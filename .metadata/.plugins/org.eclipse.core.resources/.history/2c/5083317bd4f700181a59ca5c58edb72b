@@ -1,0 +1,5 @@
+package io.altar.models;
+
+public class Product {
+
+}

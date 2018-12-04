@@ -1,0 +1,12 @@
+package io.altar.repository;
+
+public class ProductRepository {
+	private final static ProductRepository INSTANCE = new ProductRepository();
+
+	public static ProductRepository getInstance() {
+		return INSTANCE;
+	}
+
+	private ProductRepository() {
+	}
+}
