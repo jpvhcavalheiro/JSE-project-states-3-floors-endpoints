@@ -1,0 +1,11 @@
+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/business/ProductBusiness.java
+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/repository/ProductRepository.java
+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/services/stateMachine/ProductServices.java
+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/business/ShelfBusiness.java
+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/repository/EntityRepository.java
+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/models/Product.java
+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/services/stateMachine/ShelfServices.java
+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/models/Entity.java
+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/models/Shelf.java
+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/App.java
+/Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/repository/ShelfRepository.java

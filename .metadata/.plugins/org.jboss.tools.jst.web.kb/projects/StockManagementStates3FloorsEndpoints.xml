@@ -8,6 +8,10 @@
   <path value="/Users/alunotarde/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
  </paths>
  <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="jboss.jsf.core"/>
+  <core validator-id="batch-verification"/>
   <el>
    <linked-el length="21" name="%0" offset="749" path="%1"/>
    <linked-el length="21" name="%2" offset="749" path="%1"/>
