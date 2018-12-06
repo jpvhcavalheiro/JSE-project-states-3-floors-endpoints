@@ -4,4 +4,7 @@
 <fullyQualifiedTypeName name="javax.ws.rs.core.Application"/>
 <fullyQualifiedTypeName name="javax.ws.rs.ApplicationPath"/>
 <fullyQualifiedTypeName name="javax.ws.rs.DELETE"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PathParam"/>
+<fullyQualifiedTypeName name="io.altar.models.Shelf"/>
+<fullyQualifiedTypeName name="javax.ws.rs.PUT"/>
 </qualifiedTypeNameHistroy>

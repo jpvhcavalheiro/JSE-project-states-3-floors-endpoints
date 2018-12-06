@@ -61,4 +61,7 @@ public class Product extends Entity{
 	public String toString() {
 		return "Product"+getId()+" [shelvesList=" + shelvesIdList + ", discount=" + discount + ", iva=" + iva + ", pvp=" + pvp + "]";
 	}
+	public void removeShelfFromList(long shelfToRemove){
+		this.shelvesIdList.remove(shelfToRemove);
+	}
 }

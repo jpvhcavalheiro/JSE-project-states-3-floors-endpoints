@@ -58,12 +58,7 @@ public class ProductServices {
 		return "Joao campeone";
 	}
 	
-	@PUT
-	@Path("/")
-	@Consumes(MediaType.APPLICATION_JSON)
-	public Product changeProduct(Product productToChange){
-		return ProductBusiness.changeProduct(productToChange);
-	}
+	
 	
 	@DELETE
 	@Path("/{id}")
@@ -72,6 +67,11 @@ public class ProductServices {
 	public void removeProduct(@PathParam("id") long id){
 		ProductBusiness.removeProductFromProductId(id);
 	}
-	
+	@PUT
+	@Path("/")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Product changeProduct(Product productToChange){
+		return ProductBusiness.changeProduct(productToChange);
+	}
 
 }
