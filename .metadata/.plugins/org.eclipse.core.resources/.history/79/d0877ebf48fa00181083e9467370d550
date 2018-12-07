@@ -69,15 +69,11 @@ public class ProductBusiness {
 	}
 
 	public static Product changeProduct(Product productToChange) {
-		if(!productRepository1.fetchEntityById(productToChange.getId()).getShelvesIdList().isEmpty()){
-			for (long item : productRepository1.fetchEntityById(productToChange.getId()).getShelvesIdList()) {
-				shelfRepository1.fetchEntityById(item).setProductIdInShelf(-1);
-			}
+		for (long item : productRepository1.fetchEntityById(productToChange.getId()).getShelvesIdList()) {
+			shelfRepository1.fetchEntityById(item).setProductIdInShelf(-1);
 		}
-		if(!productToChange.getShelvesIdList().isEmpty()){
-			for (long item : productToChange.getShelvesIdList()) {
-				shelfRepository1.fetchEntityById(item).setProductIdInShelf(productToChange.getId());
-			}
+		for (long item : productToChange.getShelvesIdList()) {
+			shelfRepository1.fetchEntityById(item).setProductIdInShelf(productToChange.getId());
 		}
 		productRepository1.changeEntityById(productToChange);
 		return productRepository1.fetchEntityById(productToChange.getId());
