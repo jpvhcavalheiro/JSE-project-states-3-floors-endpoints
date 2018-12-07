@@ -102,3 +102,13 @@
 
 !ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-06 17:47:52.317
 !MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-07 17:41:45.825
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-07 17:42:10.054
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-07 17:42:10.122
+!MESSAGE Server Startup Succeeded
