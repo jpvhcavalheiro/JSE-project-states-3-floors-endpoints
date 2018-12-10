@@ -47,7 +47,9 @@ public class ShelfDTO extends Entity {
 	public void setId(long id) {
 		this.id = id;
 	}
-	
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
 	
 	
 	

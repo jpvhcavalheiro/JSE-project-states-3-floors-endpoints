@@ -19,6 +19,7 @@ public class ShelfDTO extends Entity {
 		this.id=id;
 	}
 	public static ShelfDTO turnShelfToShelfDTO(Shelf shelfToPresent){
+		ProductDTO productDTOInShelf=ProductDTO.turnProductToProductDTO(shelfToPresent.getProductInShelf());
 		ShelfDTO shelfDTOToPresent=new ShelfDTO(shelfToPresent.getCapacity(),ProductDTO.turnProductToProductDTO(shelfToPresent.getProductInShelf()),shelfToPresent.getRentPrice(),shelfToPresent.getId());
 		return shelfDTOToPresent;
 		
@@ -47,7 +48,9 @@ public class ShelfDTO extends Entity {
 	public void setId(long id) {
 		this.id = id;
 	}
-	
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
 	
 	
 	
