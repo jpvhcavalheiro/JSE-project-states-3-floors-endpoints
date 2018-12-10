@@ -30,6 +30,7 @@ public class ProductBusiness {
 				}
 			}
 		}
+
 		return ProductDTO.turnProductToProductDTO(productRepository1.fetchEntityById(productToAdd.getId()));
 	}
 

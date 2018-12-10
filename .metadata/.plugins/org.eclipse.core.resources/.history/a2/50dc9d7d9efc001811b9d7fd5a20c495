@@ -30,6 +30,7 @@ public class ProductBusiness {
 				}
 			}
 		}
+
 		return ProductDTO.turnProductToProductDTO(productRepository1.fetchEntityById(productToAdd.getId()));
 	}
 
@@ -60,7 +61,7 @@ public class ProductBusiness {
 		for(Product item:productRepository1.showAll()){
 			productRepository1DTO.add(ProductDTO.turnProductToProductDTO(item));
 		}
-		return productRepository1DTO;
+		return ;
 	}
 
 	public static boolean isThereThisProduct(long productIdToTest) {
@@ -71,11 +72,11 @@ public class ProductBusiness {
 		}
 	}
 
-	public static ProductDTO getAProduct(long productIdToSee) {
-		return ProductDTO.turnProductToProductDTO(productRepository1.fetchEntityById(productIdToSee));
+	public static Product getAProduct(long productIdToSee) {
+		return productRepository1.fetchEntityById(productIdToSee);
 	}
 
-	public static ProductDTO changeProduct(Product productToChange) {
+	public static Product changeProduct(Product productToChange) {
 		if(!productRepository1.fetchEntityById(productToChange.getId()).getShelvesList().isEmpty()){
 			for (Shelf item : productRepository1.fetchEntityById(productToChange.getId()).getShelvesList()) {
 				shelfRepository1.fetchEntityById(item.getId()).setProductInShelf(null);
@@ -87,6 +88,6 @@ public class ProductBusiness {
 			}
 		}
 		productRepository1.changeEntityById(productToChange);
-		return ProductDTO.turnProductToProductDTO(productRepository1.fetchEntityById(productToChange.getId()));
+		return productRepository1.fetchEntityById(productToChange.getId());
 	}
 }

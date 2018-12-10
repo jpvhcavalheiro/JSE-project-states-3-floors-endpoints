@@ -7,20 +7,20 @@ import io.altar.models.Shelf;
 public class ShelfDTO extends Entity {
 	private static final long serialVersionUID=1L;
 	private String capacity;
-	private ProductDTO productDTOInShelf;
+	private Product productInShelf;
 	private double rentPrice;
 	private long id;
 	public ShelfDTO(){}
-	public ShelfDTO(String capacity, ProductDTO productDTOInShelf, double rentPrice, long id) {
+	public ShelfDTO(String capacity, Product productInShelf, double rentPrice, long id) {
 		super();
 		this.capacity = capacity;
-		this.productDTOInShelf = productDTOInShelf;
+		this.productInShelf = productInShelf;
 		this.rentPrice = rentPrice;
 		this.id=id;
 	}
 	public static ShelfDTO turnShelfToShelfDTO(Shelf shelfToPresent){
 		ProductDTO productDTOInShelf=ProductDTO.turnProductToProductDTO(shelfToPresent.getProductInShelf());
-		ShelfDTO shelfDTOToPresent=new ShelfDTO(shelfToPresent.getCapacity(),ProductDTO.turnProductToProductDTO(shelfToPresent.getProductInShelf()),shelfToPresent.getRentPrice(),shelfToPresent.getId());
+		ShelfDTO shelfDTOToPresent=new ShelfDTO(shelfToPresent.getCapacity(),shelfToPresent.getProductInShelf(),shelfToPresent.getRentPrice(),shelfToPresent.getId());
 		return shelfDTOToPresent;
 		
 	}
@@ -30,11 +30,11 @@ public class ShelfDTO extends Entity {
 	public void setCapacity(String capacity) {
 		this.capacity = capacity;
 	}
-	public ProductDTO getProductDTOInShelf() {
-		return productDTOInShelf;
+	public Product getProductInShelf() {
+		return productInShelf;
 	}
-	public void setProductDTOInShelf(ProductDTO productDTOInShelf) {
-		this.productDTOInShelf = productDTOInShelf;
+	public void setProductInShelf(Product productInShelf) {
+		this.productInShelf = productInShelf;
 	}
 	public double getRentPrice() {
 		return rentPrice;
@@ -51,7 +51,6 @@ public class ShelfDTO extends Entity {
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
-	
 	
 	
 	

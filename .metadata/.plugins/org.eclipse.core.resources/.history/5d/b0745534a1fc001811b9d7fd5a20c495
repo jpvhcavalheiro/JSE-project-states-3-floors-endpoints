@@ -24,8 +24,8 @@ public class ShelfBusiness {
 		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.fetchEntityById(shelfToAdd.getId()));
 	}
 
-	public static ShelfDTO getAShelf(long shelfIdToSearch) {
-		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.fetchEntityById(shelfIdToSearch));
+	public static Shelf getAShelf(long shelfIdToSearch) {
+		return shelfRepository1.fetchEntityById(shelfIdToSearch);
 	}
 
 	public static void removeShelf(long shelfIdToRemove) {
@@ -45,7 +45,7 @@ public class ShelfBusiness {
 		return (ArrayList<ShelfDTO>) shelfRepository1DTO;
 	}
 
-	public static ShelfDTO changeShelf(Shelf shelfToEdit) {
+	public static Shelf changeShelf(Shelf shelfToEdit) {
 		Shelf oldShelf=shelfRepository1.fetchEntityById(shelfToEdit.getId());
 		if(oldShelf.getProductInShelf()!=null){
 			Product oldProduct=productRepository1.fetchEntityById(oldShelf.getProductInShelf().getId());
@@ -58,7 +58,7 @@ public class ShelfBusiness {
 			productRepository1.changeEntityById(newProduct);
 		}
 		shelfRepository1.changeEntityById(shelfToEdit);
-		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.fetchEntityById(shelfToEdit.getId()));
+		return shelfRepository1.fetchEntityById(shelfToEdit.getId());
 	}
 
 }

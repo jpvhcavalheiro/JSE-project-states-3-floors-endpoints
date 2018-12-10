@@ -1,0 +1,25 @@
+package io.altar.DTOs;
+
+import io.altar.models.Product;
+import io.altar.models.Shelf;
+
+public class ShelfDTO {
+	private static final long serialVersionUID=1L;
+	private String capacity;
+	private Product productInShelf;
+	private double rentPrice;
+	private long id;
+	public ShelfDTO(){}
+	public ShelfDTO(String capacity, Product productInShelf, double rentPrice, long id) {
+		super();
+		this.capacity = capacity;
+		this.productInShelf = productInShelf;
+		this.rentPrice = rentPrice;
+		this.id=id;
+	}
+	public static ShelfDTO turnShelfToShelfDTO(Shelf ShelfToPresent){
+		ShelfDTO shelfDTOToPresent=new ShelfDTO(shelfToPresent);
+		return shelfDTOToPresent;
+		
+	}
+}

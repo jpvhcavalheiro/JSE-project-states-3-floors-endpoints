@@ -26,32 +26,4 @@ public class ProductDTO extends Entity{
 		return productDTOToPresent;
 		
 	}
-	public int getDiscount() {
-		return discount;
-	}
-	public void setDiscount(int discount) {
-		this.discount = discount;
-	}
-	public int getIva() {
-		return iva;
-	}
-	public void setIva(int iva) {
-		this.iva = iva;
-	}
-	public double getPvp() {
-		return pvp;
-	}
-	public void setPvp(double pvp) {
-		this.pvp = pvp;
-	}
-	public long getId() {
-		return id;
-	}
-	public void setId(long id) {
-		this.id = id;
-	}
-	public static long getSerialversionuid() {
-		return serialVersionUID;
-	}
-	
 }

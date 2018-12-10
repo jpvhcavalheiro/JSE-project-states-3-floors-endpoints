@@ -3,11 +3,8 @@ package io.altar.business;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
-import java.util.List;
-
 import io.altar.models.*;
 import io.altar.repository.*;
-import io.altar.DTOs.ShelfDTO;
 import io.altar.business.ShelfBusiness;
 
 public class ShelfBusiness {
@@ -21,11 +18,11 @@ public class ShelfBusiness {
 					.fetchEntityById(shelfToAdd.getProductInShelf().getId())
 					.getShelvesList().add(shelfToAdd);
 		}
-		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.fetchEntityById(shelfToAdd.getId()));
+		return shelfRepository1.fetchEntityById(shelfToAdd.getId());
 	}
 
-	public static ShelfDTO getAShelf(long shelfIdToSearch) {
-		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.fetchEntityById(shelfIdToSearch));
+	public static Shelf getAShelf(long shelfIdToSearch) {
+		return shelfRepository1.fetchEntityById(shelfIdToSearch);
 	}
 
 	public static void removeShelf(long shelfIdToRemove) {
@@ -37,15 +34,11 @@ public class ShelfBusiness {
 		shelfRepository1.deleteEntityById(shelfIdToRemove);
 	}
 
-	public static ArrayList<ShelfDTO> getAllShelves() {
-		List <ShelfDTO> shelfRepository1DTO=new ArrayList<ShelfDTO>();
-		for(Shelf item:shelfRepository1.showAll()){
-			shelfRepository1DTO.add(ShelfDTO.turnShelfToShelfDTO(item));
-		}
-		return (ArrayList<ShelfDTO>) shelfRepository1DTO;
+	public static Collection<Shelf> getAllShelves() {
+		return shelfRepository1.showAll();
 	}
 
-	public static ShelfDTO changeShelf(Shelf shelfToEdit) {
+	public static Shelf changeShelf(Shelf shelfToEdit) {
 		Shelf oldShelf=shelfRepository1.fetchEntityById(shelfToEdit.getId());
 		if(oldShelf.getProductInShelf()!=null){
 			Product oldProduct=productRepository1.fetchEntityById(oldShelf.getProductInShelf().getId());
@@ -58,7 +51,7 @@ public class ShelfBusiness {
 			productRepository1.changeEntityById(newProduct);
 		}
 		shelfRepository1.changeEntityById(shelfToEdit);
-		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.fetchEntityById(shelfToEdit.getId()));
+		return shelfRepository1.fetchEntityById(shelfToEdit.getId());
 	}
 
 }

@@ -58,7 +58,7 @@ public class ShelfBusiness {
 			productRepository1.changeEntityById(newProduct);
 		}
 		shelfRepository1.changeEntityById(shelfToEdit);
-		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.fetchEntityById(shelfToEdit.getId()));
+		return shelfRepository1.fetchEntityById(shelfToEdit.getId());
 	}
 
 }
