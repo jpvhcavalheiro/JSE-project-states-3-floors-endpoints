@@ -1,5 +1,6 @@
 package io.altar.services.stateMachine;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 import javax.ws.rs.Consumes;
@@ -14,6 +15,7 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriInfo;
 
+import io.altar.DTOs.ProductDTO;
 import io.altar.business.*;
 import io.altar.models.Product;
 @Path("/products")
@@ -26,7 +28,7 @@ public class ProductServices {
 	@Path("/eureka")
 	@Produces(MediaType.TEXT_PLAIN)
 	public String seeHealth(){
-		return "Eureka!ola  FUNCIONA!";
+		return "Eureka! FUNCIONA!";
 	}
 	
 	
@@ -34,32 +36,26 @@ public class ProductServices {
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Product createProduct(Product product){
+	public ProductDTO createProduct(Product product){
 	return ProductBusiness.addNewProductToProductRepository(product);
 	}
+	
+
 	@GET
 	@Path("/seeall")
 	@Produces(MediaType.APPLICATION_JSON)
-	public  Collection<Product> seeAllProducts(){
+	public  ArrayList<ProductDTO> seeAllProducts(){
 		return ProductBusiness.getAllProducts();
 	}
+	
 	
 	@GET
 	@Path("/seeproductid/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Product seeASingleProduct(@PathParam("id") long id){
+	public ProductDTO seeASingleProduct(@PathParam("id") long id){
 		return ProductBusiness.getAProduct(id);
 	}
-	
-	@GET
-	@Path("/joao")
-	@Produces(MediaType.TEXT_PLAIN)
-	public String joao(){
-		return "Joao campeone";
-	}
-	
-	
-	
+
 	@DELETE
 	@Path("/{id}")
 	@Consumes(MediaType.APPLICATION_JSON)
@@ -70,7 +66,7 @@ public class ProductServices {
 	@PUT
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public Product changeProduct(Product productToChange){
+	public ProductDTO changeProduct(Product productToChange){
 		return ProductBusiness.changeProduct(productToChange);
 	}
 

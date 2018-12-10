@@ -1,16 +1,17 @@
 package io.altar.models;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Product extends Entity{
 	private static final long serialVersionUID=1L;
-	private ArrayList <Long> shelvesIdList;
+	private List <Shelf> shelvesList=new ArrayList();
 	private int discount;
 	private int iva;
 	private double pvp;
 	public Product(){}
 	public Product(ArrayList<Long> shelvesIdList, int discount, int iva, double pvp) {
 		super();
-		this.shelvesIdList = shelvesIdList;
+		this.shelvesList = shelvesList;
 		this.discount = discount;
 		this.iva = iva;
 		this.pvp = pvp;
@@ -22,22 +23,16 @@ public class Product extends Entity{
 	 */
 	//esta funcao esta errada
 	//em nenhuma parte do codigo se inicializa o shelfidlist como estando vazio
-	public void addNewShelfToShelvesList(long newShelfId) {
-		shelvesIdList.add(newShelfId);
+	public void addNewShelfToShelvesList(Shelf newShelf) {
+		shelvesList.add(newShelf);
 	}
 	
-	public ArrayList<Long> getShelvesIdList() {
-		return shelvesIdList;
+	public List<Shelf> getShelvesList() {
+		return shelvesList;
 	}
-	public void deleteSheldIdFromShelvesIdList(long shelfIdToDelete){
-		for(long item:shelvesIdList){
-			if(item==shelfIdToDelete){
-				
-			}
-		}
-	}
-	public void setShelvesIdList(ArrayList<Long> shelvesIdList) {
-		this.shelvesIdList = shelvesIdList;
+	
+	public void setShelvesList(ArrayList<Shelf> shelvesList) {
+		this.shelvesList = shelvesList;
 	}
 	public int getDiscount() {
 		return discount;
@@ -59,9 +54,9 @@ public class Product extends Entity{
 	}
 	@Override
 	public String toString() {
-		return "Product"+getId()+" [shelvesList=" + shelvesIdList + ", discount=" + discount + ", iva=" + iva + ", pvp=" + pvp + "]";
+		return "Product"+getId()+" [shelvesList=" + shelvesList + ", discount=" + discount + ", iva=" + iva + ", pvp=" + pvp + "]";
 	}
-	public void removeShelfFromList(long shelfToRemove){
-		this.shelvesIdList.remove(shelfToRemove);
+	public void removeShelfFromList(Shelf shelfToRemove){
+		this.shelvesList.remove(shelfToRemove);
 	}
 }

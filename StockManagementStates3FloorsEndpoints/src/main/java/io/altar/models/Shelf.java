@@ -3,13 +3,13 @@ package io.altar.models;
 public class Shelf extends Entity {
 	private static final long serialVersionUID=1L;
 	private String capacity;
-	private long productIdInShelf;
+	private Product productInShelf;
 	private double rentPrice;
 	public Shelf(){}
-	public Shelf(String capacity, long productIdInShelf, double rentPrice) {
+	public Shelf(String capacity, Product productInShelf, double rentPrice) {
 		super();
 		this.capacity = capacity;
-		this.productIdInShelf = productIdInShelf;
+		this.productInShelf = productInShelf;
 		this.rentPrice = rentPrice;
 	}
 	public String getCapacity() {
@@ -18,11 +18,11 @@ public class Shelf extends Entity {
 	public void setCapacity(String capacity) {
 		this.capacity = capacity;
 	}
-	public long getProductIdInShelf() {
-		return productIdInShelf;
+	public Product getProductInShelf() {
+		return productInShelf;
 	}
-	public void setProductIdInShelf(long newProductIdInShelf) {
-		this.productIdInShelf = newProductIdInShelf;
+	public void setProductInShelf(Product newProductInShelf) {
+		this.productInShelf = newProductInShelf;
 	}
 	public double getRentPrice() {
 		return rentPrice;
@@ -32,6 +32,6 @@ public class Shelf extends Entity {
 	}
 
 	public String shelfToString() {
-		return "Shelf"+getId()+" [capacity=" + capacity + ", productIdInShelf=" + productIdInShelf + ", rentPrice=" + rentPrice + "]";
+		return "Shelf"+getId()+" [capacity=" + capacity + ", productIdInShelf=" + productInShelf + ", rentPrice=" + rentPrice + "]";
 	}
 }

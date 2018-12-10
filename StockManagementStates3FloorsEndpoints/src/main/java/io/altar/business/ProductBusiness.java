@@ -6,6 +6,7 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
+import io.altar.DTOs.ProductDTO;
 import io.altar.models.*;
 import io.altar.repository.*;
 
@@ -13,35 +14,38 @@ public class ProductBusiness {
 	public static ProductRepository productRepository1 = ProductRepository.getInstance();
 	public static ShelfRepository shelfRepository1 = ShelfRepository.getInstance();
 
-	public static Product addNewProductToProductRepository(Product productToAdd) {
+	public static ProductDTO addNewProductToProductRepository(Product productToAdd) {
 		productRepository1.createEntity(productToAdd);
-		if (productToAdd.getShelvesIdList().size() > 0) {
-			ArrayList <Long> newShelvesIdList=productToAdd.getShelvesIdList();
-			ArrayList<Long> oldShelvesIdList=(ArrayList<Long>)newShelvesIdList.clone();
-			for (long item : oldShelvesIdList) {
-				if (shelfRepository1.fetchEntityById(item).getProductIdInShelf() == -1) {
-					shelfRepository1.fetchEntityById(item).setProductIdInShelf(productToAdd.getId());
+		if (productToAdd.getShelvesList().size() > 0) {
+			List <Shelf> newShelvesList=productToAdd.getShelvesList();
+			List<Shelf> oldShelvesList=new ArrayList<Shelf>();
+			for(Shelf item:newShelvesList){
+				oldShelvesList.add(item);
+			}
+			for (Shelf item : oldShelvesList) {
+				if (shelfRepository1.fetchEntityById(item.getId()).getProductInShelf() == null) {
+					shelfRepository1.fetchEntityById(item.getId()).setProductInShelf(productToAdd);
 				} else {
-					productRepository1.fetchEntityById(productToAdd.getId()).getShelvesIdList().remove(item);
+					productRepository1.fetchEntityById(productToAdd.getId()).getShelvesList().remove(item);
 				}
 			}
 		}
 
-		return productRepository1.fetchEntityById(productToAdd.getId());
+		return ProductDTO.turnProductToProductDTO(productRepository1.fetchEntityById(productToAdd.getId()));
 	}
 
 	public static void removeProductFromProductId(long productId) {
 		Product oldProduct = productRepository1.fetchEntityById(productId);
-		if (oldProduct.getShelvesIdList().size() > 0) {
-			for (long item : oldProduct.getShelvesIdList()) {
-				shelfRepository1.fetchEntityById(item).setProductIdInShelf(-1);
+		if (oldProduct.getShelvesList().size() > 0) {
+			for (Shelf item : oldProduct.getShelvesList()) {
+				shelfRepository1.fetchEntityById(item.getId()).setProductInShelf(null);
 			}
 		}
 		productRepository1.deleteEntityById(productId);
 	}
 
-	public static void updateShelfRepositoryAccordingToShelvesList(ArrayList<Long> shelvesList, long productId) {
-		productRepository1.fetchEntityById(productId).setShelvesIdList(shelvesList);
+	public static void updateShelfRepositoryAccordingToShelvesList(ArrayList<Shelf> shelvesList, long productId) {
+		productRepository1.fetchEntityById(productId).setShelvesList(shelvesList);
 	}
 
 	public static boolean isThereThisShelf(long shelfIdToTest) {
@@ -52,8 +56,12 @@ public class ProductBusiness {
 		}
 	}
 
-	public static Collection<Product> getAllProducts() {
-		return productRepository1.showAll();
+	public static ArrayList<ProductDTO> getAllProducts() {
+		ArrayList <ProductDTO> productRepository1DTO=newArrayList<ProductDTO>;
+		for(Product item:productRepository1.showAll()){
+			productRepository1DTO.add(ProductDTO.turnProductToProductDTO(item));
+		}
+		return ;
 	}
 
 	public static boolean isThereThisProduct(long productIdToTest) {
@@ -69,14 +77,14 @@ public class ProductBusiness {
 	}
 
 	public static Product changeProduct(Product productToChange) {
-		if(!productRepository1.fetchEntityById(productToChange.getId()).getShelvesIdList().isEmpty()){
-			for (long item : productRepository1.fetchEntityById(productToChange.getId()).getShelvesIdList()) {
-				shelfRepository1.fetchEntityById(item).setProductIdInShelf(-1);
+		if(!productRepository1.fetchEntityById(productToChange.getId()).getShelvesList().isEmpty()){
+			for (Shelf item : productRepository1.fetchEntityById(productToChange.getId()).getShelvesList()) {
+				shelfRepository1.fetchEntityById(item.getId()).setProductInShelf(null);
 			}
 		}
-		if(!productToChange.getShelvesIdList().isEmpty()){
-			for (long item : productToChange.getShelvesIdList()) {
-				shelfRepository1.fetchEntityById(item).setProductIdInShelf(productToChange.getId());
+		if(!productToChange.getShelvesList().isEmpty()){
+			for (Shelf item : productToChange.getShelvesList()) {
+				shelfRepository1.fetchEntityById(item.getId()).setProductInShelf(productToChange);
 			}
 		}
 		productRepository1.changeEntityById(productToChange);

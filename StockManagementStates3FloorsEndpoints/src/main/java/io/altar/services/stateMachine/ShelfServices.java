@@ -1,5 +1,6 @@
 package io.altar.services.stateMachine;
 
+import java.util.ArrayList;
 import java.util.Collection;
 
 import javax.ws.rs.Consumes;
@@ -14,6 +15,7 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriInfo;
 
+import io.altar.DTOs.ShelfDTO;
 import io.altar.business.*;
 import io.altar.models.Product;
 import io.altar.models.Shelf;
@@ -36,28 +38,28 @@ public class ShelfServices {
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Shelf createShelf(Shelf shelf) {
+	public ShelfDTO createShelf(Shelf shelf) {
 		return ShelfBusiness.addNewShelfToShelfRepository(shelf);
 	}
 
 	@GET
 	@Path("/seeall")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Collection<Shelf> seeAllShelves() {
+	public ArrayList<ShelfDTO> seeAllShelves() {
 		return ShelfBusiness.getAllShelves();
 	}
 
 	@GET
 	@Path("/seeshelfid/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public Shelf seeASingleShelf(@PathParam("id") long id) {
+	public ShelfDTO seeASingleShelf(@PathParam("id") long id) {
 		return ShelfBusiness.getAShelf(id);
 	}
 	@PUT
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Shelf changeShelf(Shelf shelfToChange){
+	public ShelfDTO changeShelf(Shelf shelfToChange){
 		return ShelfBusiness.changeShelf(shelfToChange);
 	}
 
@@ -65,6 +67,6 @@ public class ShelfServices {
 	@Path("/{id}")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public void removeShelf(@PathParam("id") long id) {
-		ShelfBusiness.removeShelfFromProductId(id);
+		ShelfBusiness.removeShelf(id);
 	}
 }
