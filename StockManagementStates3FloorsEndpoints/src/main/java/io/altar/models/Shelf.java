@@ -12,6 +12,11 @@ public class Shelf extends Entity {
 		this.productInShelf = productInShelf;
 		this.rentPrice = rentPrice;
 	}
+	/*public Shelf(String capacity, double rentPrice) {
+		super();
+		this.capacity = capacity;
+		this.rentPrice = rentPrice;
+	}*/
 	public String getCapacity() {
 		return capacity;
 	}

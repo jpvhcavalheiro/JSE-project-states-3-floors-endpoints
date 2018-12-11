@@ -18,8 +18,18 @@ public class ShelfDTO extends Entity {
 		this.rentPrice = rentPrice;
 		this.id=id;
 	}
+	public ShelfDTO(String capacity, double rentPrice, long id) {
+		super();
+		this.capacity = capacity;
+		this.rentPrice = rentPrice;
+		this.id=id;
+	}
 	public static ShelfDTO turnShelfToShelfDTO(Shelf shelfToPresent){
-		ShelfDTO shelfDTOToPresent=new ShelfDTO(shelfToPresent.getCapacity(),ProductDTO.turnProductToProductDTO(shelfToPresent.getProductInShelf()),shelfToPresent.getRentPrice(),shelfToPresent.getId());
+		ShelfDTO shelfDTOToPresent;
+		if(shelfToPresent.getProductInShelf()!=null){
+			shelfDTOToPresent=new ShelfDTO(shelfToPresent.getCapacity(),ProductDTO.turnProductToProductDTO(shelfToPresent.getProductInShelf()),shelfToPresent.getRentPrice(),shelfToPresent.getId());
+		} else 
+			shelfDTOToPresent=new ShelfDTO(shelfToPresent.getCapacity(),shelfToPresent.getRentPrice(),shelfToPresent.getId());
 		return shelfDTOToPresent;
 		
 	}
