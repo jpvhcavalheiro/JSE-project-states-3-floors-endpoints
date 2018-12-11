@@ -1,0 +1,89 @@
+package io.altar.services.stateMachine;
+
+import java.util.ArrayList;
+import java.util.Collection;
+
+import javax.inject.Inject;
+import javax.ws.rs.Consumes;
+import javax.ws.rs.DELETE;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.PUT;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.Context;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.UriInfo;
+
+import io.altar.DTOs.ProductDTO;
+import io.altar.business.*;
+import io.altar.models.Product;
+@Path("/products")
+public class ProductServices {
+	@Inject
+	ProductBusiness productBusiness;
+	@Context
+	private UriInfo context;
+	
+	@GET
+	@Path("/eureka")
+	@Produces(MediaType.TEXT_PLAIN)
+	public String seeHealth(){
+		return "Eureka! FUNCIONA!";
+	}
+	@POST
+	@Path("/provisory")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public Product temporaryAddProduct(Product product){
+	return productBusiness.provisoryAddNewProduct(product);
+	}
+	@PUT
+	@Path("/provisory")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public Product changeProduct(Product productToChange){
+		return productBusiness.provisoryChangeProduct(productToChange);
+	}
+	
+	
+	
+	/*@POST
+	@Path("/")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public ProductDTO createProduct(Product product){
+	return ProductBusiness.addNewProductToProductRepository(product);
+	}
+	
+
+	@GET
+	@Path("/seeall")
+	@Produces(MediaType.APPLICATION_JSON)
+	public  ArrayList<ProductDTO> seeAllProducts(){
+		return ProductBusiness.getAllProducts();
+	}
+	
+	
+	@GET
+	@Path("/seeproductid/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public ProductDTO seeASingleProduct(@PathParam("id") long id){
+		return ProductBusiness.getAProduct(id);
+	}
+
+	@DELETE
+	@Path("/{id}")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public void removeProduct(@PathParam("id") long id){
+		ProductBusiness.removeProductFromProductId(id);
+	}
+	@PUT
+	@Path("/")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public ProductDTO changeProduct(Product productToChange){
+		return ProductBusiness.changeProduct(productToChange);
+	}*/
+
+}

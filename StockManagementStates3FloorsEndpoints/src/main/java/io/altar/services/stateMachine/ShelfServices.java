@@ -34,39 +34,39 @@ public class ShelfServices {
 		return "Eureka! FUNCIONA!";
 	}
 
-	@POST
-	@Path("/")
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Produces(MediaType.APPLICATION_JSON)
-	public ShelfDTO createShelf(Shelf shelf) {
-		return ShelfBusiness.addNewShelfToShelfRepository(shelf);
-	}
-
-	@GET
-	@Path("/seeall")
-	@Produces(MediaType.APPLICATION_JSON)
-	public ArrayList<ShelfDTO> seeAllShelves() {
-		return ShelfBusiness.getAllShelves();
-	}
-
-	@GET
-	@Path("/seeshelfid/{id}")
-	@Produces(MediaType.APPLICATION_JSON)
-	public ShelfDTO seeASingleShelf(@PathParam("id") long id) {
-		return ShelfBusiness.getAShelf(id);
-	}
-	@PUT
-	@Path("/")
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Produces(MediaType.APPLICATION_JSON)
-	public ShelfDTO changeShelf(Shelf shelfToChange){
-		return ShelfBusiness.changeShelf(shelfToChange);
-	}
-
-	@DELETE
-	@Path("/{id}")
-	@Consumes(MediaType.APPLICATION_JSON)
-	public void removeShelf(@PathParam("id") long id) {
-		ShelfBusiness.removeShelf(id);
-	}
+//	@POST
+//	@Path("/")
+//	@Consumes(MediaType.APPLICATION_JSON)
+//	@Produces(MediaType.APPLICATION_JSON)
+//	public ShelfDTO createShelf(Shelf shelf) {
+//		return ShelfBusiness.addNewShelfToShelfRepository(shelf);
+//	}
+//
+//	@GET
+//	@Path("/seeall")
+//	@Produces(MediaType.APPLICATION_JSON)
+//	public ArrayList<ShelfDTO> seeAllShelves() {
+//		return ShelfBusiness.getAllShelves();
+//	}
+//
+//	@GET
+//	@Path("/seeshelfid/{id}")
+//	@Produces(MediaType.APPLICATION_JSON)
+//	public ShelfDTO seeASingleShelf(@PathParam("id") long id) {
+//		return ShelfBusiness.getAShelf(id);
+//	}
+//	@PUT
+//	@Path("/")
+//	@Consumes(MediaType.APPLICATION_JSON)
+//	@Produces(MediaType.APPLICATION_JSON)
+//	public ShelfDTO changeShelf(Shelf shelfToChange){
+//		return ShelfBusiness.changeShelf(shelfToChange);
+//	}
+//
+//	@DELETE
+//	@Path("/{id}")
+//	@Consumes(MediaType.APPLICATION_JSON)
+//	public void removeShelf(@PathParam("id") long id) {
+//		ShelfBusiness.removeShelf(id);
+//	}
 }

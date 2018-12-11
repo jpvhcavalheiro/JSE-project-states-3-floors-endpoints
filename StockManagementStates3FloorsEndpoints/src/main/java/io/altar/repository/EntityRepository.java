@@ -1,20 +1,49 @@
 package io.altar.repository;
-import io.altar.models.Entity;
+import io.altar.models.BaseEntity;
 import java.util.Map;
+
+import javax.persistence.EntityManager;
+import javax.persistence.PersistenceContext;
+import javax.transaction.Transactional;
+
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Collection;
 
-public class EntityRepository<T extends Entity> {
-	private Map<Long, T> map = new HashMap<Long, T>();
+
+public class EntityRepository<T extends BaseEntity> {
+	
+	@PersistenceContext
+	protected EntityManager entityManager;
+	//atributos antigos
+	/*private Map<Long, T> map = new HashMap<Long, T>();
 	private long currentId = 0;
 
 	private long nextId(){
 		currentId++;
 		return currentId;
+	}*/
+	//A função deleteEntityById está MAL!
+	
+	
+	/*public void deleteEntityById(long id) {
+		entityManager.remove(entity);
+	}*/
+	public T changeEntity(T entity) {
+		return entityManager.merge(entity);
+	}
+	@Transactional
+	public T createEntity(T entity) {
+		return entityManager.merge(entity);
 	}
 	
-	public long createEntity(T entity) {
+	
+	
+	
+	
+	//Lista de funções desactualizadas!
+	
+	/*public long createEntity(T entity) {
 		entity.setId(currentId);
 		map.put(entity.getId(), entity);
 		nextId();
@@ -34,5 +63,5 @@ public class EntityRepository<T extends Entity> {
 	}
 	public   Collection<T> showAll(){
 		return map.values();
-	}
+	}*/
 }

@@ -243,3 +243,749 @@
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 15:51:06.484
 !MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 16:32:35.038
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 16:32:47.162
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 16:33:06.218
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 16:33:06.221
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 16:42:43.682
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 18:37:45.406
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 18:38:10.075
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 18:38:10.085
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 18:41:02.289
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 18:41:09.201
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 18:41:24.620
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 18:41:24.637
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 18:43:03.227
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 18:43:09.763
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 18:43:26.045
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 18:43:26.050
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 18:44:36.541
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 18:46:42.929
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 18:46:58.001
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 18:46:58.004
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 18:56:29.385
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 19:01:06.751
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 19:01:22.212
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 19:01:22.228
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-11 19:01:42.261
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 19:11:12.567
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 19:11:18.832
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 19:11:34.414
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 19:11:34.416
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-11 19:11:54.450
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 19:14:13.686
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 19:16:09.152
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 19:16:24.334
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 19:16:24.335
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-11 19:16:44.367
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 19:21:15.939
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 19:22:02.947
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 19:22:18.005
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 19:22:18.015
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-11 19:22:38.063
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 19:29:33.048
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 19:33:06.308
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 19:33:21.791
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 19:33:21.803
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-11 19:33:41.841
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 19:34:49.783
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 19:35:41.347
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 19:35:56.226
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 19:35:56.229
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-11 19:36:16.274
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 19:36:36.061
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 19:39:57.307
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 19:40:20.065
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 19:40:20.097
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-11 19:40:40.132
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 19:54:34.738
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 20:01:28.603
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-12-11 20:01:43.058
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-11 20:01:43.062
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-11 20:02:03.095
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 20:04:09.234
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-12-11 20:04:26.696
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-11 20:05:47.169
+!MESSAGE Incremental publish failed for module StockManagementStates3FloorsEndpoints
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.169
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.169
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/target/m2e-wtp/web-resources/META-INF/maven/io.altar.upAcademy/StockManagementStates3FloorsEndpoints/pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.169
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/target/m2e-wtp/web-resources/META-INF/maven/io.altar.upAcademy/StockManagementStates3FloorsEndpoints/pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.169
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ProductDTO.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ProductDTO.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.170
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ShelfDTO.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ShelfDTO.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.170
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ProductBusiness.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ProductBusiness.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.170
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ShelfBusiness.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ShelfBusiness.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.170
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/BaseEntity.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/BaseEntity.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.170
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Product.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Product.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.220
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Shelf.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Shelf.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.221
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/EntityRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/EntityRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.221
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ProductRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ProductRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.221
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ShelfRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ShelfRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.221
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ProductServices.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ProductServices.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.221
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ShelfServices.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ShelfServices.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.221
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/App.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/App.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.221
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/target/classes/META-INF/beans.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.221
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/target/classes/META-INF/persistence.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 20:05:47.393
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 20:06:14.106
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 20:09:49.229
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-11 20:10:06.296
+!MESSAGE Incremental publish failed for module StockManagementStates3FloorsEndpoints
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.296
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ProductDTO.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ProductDTO.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.297
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ShelfDTO.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ShelfDTO.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.297
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ProductBusiness.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ProductBusiness.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.297
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ShelfBusiness.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ShelfBusiness.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.297
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/BaseEntity.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/BaseEntity.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.298
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Product.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Product.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.298
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Shelf.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Shelf.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.298
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/EntityRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/EntityRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.299
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ProductRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ProductRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.299
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ShelfRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ShelfRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.299
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ShelfServices.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ShelfServices.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.300
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/App.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/App.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-11 20:10:06.563
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-11 20:10:25.812
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-11 20:17:50.702
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 

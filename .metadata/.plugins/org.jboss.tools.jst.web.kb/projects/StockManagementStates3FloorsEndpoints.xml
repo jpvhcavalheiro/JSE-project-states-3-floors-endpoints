@@ -9,18 +9,39 @@
  </paths>
  <validation>
   <core validator-id="jsf-verification"/>
-  <core validator-id="jboss.cdi.core"/>
+  <core validator-id="jboss.cdi.core">
+   <linked-resource name="%1;%2;" path="%0"/>
+   <linked-resource name="%1;%2;" path="%3"/>
+   <linked-resource name="%1;%2;" path="%4"/>
+   <linked-resource name="%5;" path="%1"/>
+  </core>
   <core validator-id="jboss.jsf.core"/>
   <core validator-id="batch-verification"/>
   <el>
-   <linked-el length="21" name="%0" offset="749" path="%1"/>
-   <linked-el length="21" name="%2" offset="749" path="%1"/>
+   <linked-el length="21" name="%6" offset="749" path="%7"/>
+   <linked-el length="21" name="%6" offset="749" path="%8"/>
+   <linked-el length="21" name="%9" offset="749" path="%7"/>
+   <linked-el length="21" name="%9" offset="749" path="%8"/>
   </el>
  </validation>
  <aliases>
-  <alias path="project.artifactId" value="%0"/>
-  <alias path="project" value="%2"/>
-  <alias path="/StockManagementStates3FloorsEndpoints/pom.xml" value="%1"/>
+  <alias
+   path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/business/ProductBusiness.java" value="%1"/>
+  <alias
+   path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/repository/EntityRepository.java" value="%4"/>
+  <alias
+   path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/business/ShelfBusiness.java" value="%2"/>
+  <alias
+   path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/repository/ProductRepository.java" value="%3"/>
+  <alias path="project.artifactId" value="%6"/>
+  <alias path="project" value="%9"/>
+  <alias
+   path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/services/stateMachine/ProductServices.java" value="%5"/>
+  <alias path="/StockManagementStates3FloorsEndpoints/pom.xml" value="%7"/>
+  <alias
+   path="/StockManagementStates3FloorsEndpoints/target/m2e-wtp/web-resources/META-INF/maven/io.altar.upAcademy/StockManagementStates3FloorsEndpoints/pom.xml" value="%8"/>
+  <alias
+   path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/repository/ShelfRepository.java" value="%0"/>
  </aliases>
  <includes/>
  <uris/>

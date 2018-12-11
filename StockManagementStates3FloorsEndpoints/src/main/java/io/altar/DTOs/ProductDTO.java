@@ -3,11 +3,11 @@ package io.altar.DTOs;
 import java.util.ArrayList;
 import java.util.List;
 
-import io.altar.models.Entity;
+import io.altar.models.BaseEntity;
 import io.altar.models.Product;
 import io.altar.models.Shelf;
 
-public class ProductDTO extends Entity{
+public class ProductDTO extends BaseEntity{
 	private static final long serialVersionUID=1L;
 	private int discount;
 	private int iva;

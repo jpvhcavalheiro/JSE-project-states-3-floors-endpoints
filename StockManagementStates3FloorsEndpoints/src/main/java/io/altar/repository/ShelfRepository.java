@@ -8,6 +8,6 @@ public class ShelfRepository extends EntityRepository<Shelf> {
 		return INSTANCE;
 	}
 
-	private ShelfRepository() {
+	public ShelfRepository() {
 	}
 }

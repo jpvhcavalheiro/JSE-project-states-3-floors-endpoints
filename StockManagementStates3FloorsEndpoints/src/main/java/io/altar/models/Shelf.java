@@ -1,8 +1,15 @@
 package io.altar.models;
 
-public class Shelf extends Entity {
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
+
+@Entity
+public class Shelf extends BaseEntity {
 	private static final long serialVersionUID=1L;
 	private String capacity;
+	
+	@ManyToOne(cascade=CascadeType.ALL)
 	private Product productInShelf;
 	private double rentPrice;
 	public Shelf(){}

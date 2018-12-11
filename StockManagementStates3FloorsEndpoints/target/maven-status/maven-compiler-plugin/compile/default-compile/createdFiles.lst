@@ -1,11 +1,13 @@
-io/altar/App.class
 io/altar/business/ProductBusiness.class
 io/altar/business/ShelfBusiness.class
 io/altar/repository/ShelfRepository.class
-io/altar/models/Shelf.class
 io/altar/services/stateMachine/ProductServices.class
-io/altar/repository/ProductRepository.class
+io/altar/DTOs/ProductDTO.class
 io/altar/models/Product.class
 io/altar/repository/EntityRepository.class
-io/altar/models/Entity.class
 io/altar/services/stateMachine/ShelfServices.class
+io/altar/App.class
+io/altar/models/Shelf.class
+io/altar/DTOs/ShelfDTO.class
+io/altar/models/BaseEntity.class
+io/altar/repository/ProductRepository.class

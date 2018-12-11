@@ -3,6 +3,7 @@ package io.altar.services.stateMachine;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -15,12 +16,15 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriInfo;
 
-import io.altar.DTOs.ProductDTO;
-import io.altar.business.*;
+import io.altar.business.ProductBusiness;
 import io.altar.models.Product;
+
+
+
 @Path("/products")
 public class ProductServices {
-
+	@Inject
+	ProductBusiness productBusiness;
 	@Context
 	private UriInfo context;
 	
@@ -30,9 +34,24 @@ public class ProductServices {
 	public String seeHealth(){
 		return "Eureka! FUNCIONA!";
 	}
-	
-	
 	@POST
+	@Path("/provisory")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public Product temporaryAddProduct(Product product){
+	return productBusiness.provisoryAddNewProduct(product);
+	}
+	@PUT
+	@Path("/provisory")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public Product changeProduct(Product productToChange){
+		return productBusiness.provisoryChangeProduct(productToChange);
+	}
+	
+	
+	
+	/*@POST
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
@@ -59,7 +78,6 @@ public class ProductServices {
 	@DELETE
 	@Path("/{id}")
 	@Consumes(MediaType.APPLICATION_JSON)
-	@Produces(MediaType.APPLICATION_JSON)
 	public void removeProduct(@PathParam("id") long id){
 		ProductBusiness.removeProductFromProductId(id);
 	}
@@ -68,6 +86,6 @@ public class ProductServices {
 	@Consumes(MediaType.APPLICATION_JSON)
 	public ProductDTO changeProduct(Product productToChange){
 		return ProductBusiness.changeProduct(productToChange);
-	}
+	}*/
 
 }

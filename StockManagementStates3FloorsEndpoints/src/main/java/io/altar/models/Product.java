@@ -2,8 +2,15 @@ package io.altar.models;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Product extends Entity{
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Product extends BaseEntity{
 	private static final long serialVersionUID=1L;
+	
+	@OneToMany(fetch=FetchType.LAZY,mappedBy="productInShelf")
 	private List <Shelf> shelvesList=new ArrayList();
 	private int discount;
 	private int iva;

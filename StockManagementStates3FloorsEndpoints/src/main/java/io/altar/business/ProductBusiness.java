@@ -6,15 +6,32 @@ import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
 
+import javax.inject.Inject;
+import javax.transaction.Transactional;
+
 import io.altar.DTOs.ProductDTO;
 import io.altar.models.*;
 import io.altar.repository.*;
 
 public class ProductBusiness {
-	public static ProductRepository productRepository1 = ProductRepository.getInstance();
-	public static ShelfRepository shelfRepository1 = ShelfRepository.getInstance();
+	@Inject
+	ProductRepository productRepository1;
+	@Inject
+	ShelfRepository shelfRepository1;
 
-	public static ProductDTO addNewProductToProductRepository(Product productToAdd) {
+	@Transactional
+	public Product provisoryAddNewProduct(Product productToAdd){
+		productRepository1.createEntity(productToAdd);
+		//Na proxima linha ir buscar o produto á base de dados
+		return productToAdd;
+	}
+	@Transactional
+	public Product provisoryChangeProduct(Product productToChange){
+		return productRepository1.changeEntity(productToChange);
+	}
+	
+	
+	/*public static ProductDTO addNewProductToProductRepository(Product productToAdd) {
 		productRepository1.createEntity(productToAdd);
 		if (productToAdd.getShelvesList().size() > 0) {
 			List <Shelf> newShelvesList=productToAdd.getShelvesList();
@@ -42,11 +59,6 @@ public class ProductBusiness {
 		}
 		productRepository1.deleteEntityById(productId);
 	}
-
-	public static void updateShelfRepositoryAccordingToShelvesList(ArrayList<Shelf> shelvesList, long productId) {
-		productRepository1.fetchEntityById(productId).setShelvesList(shelvesList);
-	}
-
 	public static boolean isThereThisShelf(long shelfIdToTest) {
 		if (shelfRepository1.fetchEntityById(shelfIdToTest) == null) {
 			return false;
@@ -88,5 +100,5 @@ public class ProductBusiness {
 		}
 		productRepository1.changeEntityById(productToChange);
 		return ProductDTO.turnProductToProductDTO(productRepository1.fetchEntityById(productToChange.getId()));
-	}
+	}*/
 }

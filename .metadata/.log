@@ -4344,3 +4344,1799 @@ Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Cou
 ]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
 	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
 	... 13 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 16:25:44.549
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 16:25:44.588
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 16:32:30.953
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 16:32:31.047
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 16:33:14.089
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 16:33:14.143
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 16:41:25.840
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 16:41:26.027
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 16:47:57.621
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 16:47:57.700
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:32:36.208
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:32:36.237
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:33:09.020
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:33:09.032
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-11 17:34:11.841
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-11 17:34:11.880
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:36:48.428
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:36:48.443
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:40:45.781
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:40:45.811
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:40:47.127
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:40:47.129
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:42:05.762
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:42:05.773
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:42:06.913
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:42:06.916
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:42:28.129
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:42:28.146
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:42:29.262
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:42:29.269
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:43:39.065
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:43:39.092
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:43:40.280
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:43:40.288
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:43:44.691
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:43:44.694
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:44:41.790
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:44:41.817
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:44:42.958
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:44:42.962
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:45:06.613
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:45:06.664
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:45:50.026
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:45:50.038
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:45:51.243
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:45:51.245
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:45:58.781
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:45:58.785
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:45:59.860
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:45:59.884
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:46:05.342
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:46:05.344
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:46:14.182
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:46:14.193
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:46:15.328
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:46:15.330
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:46:30.727
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:46:30.731
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:46:47.116
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:46:47.120
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:47:11.809
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:47:11.810
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:58:11.198
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 17:58:11.224
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:05:23.681
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:05:23.691
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:15:52.082
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:15:52.109
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:17:52.060
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:17:52.062
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:19:57.980
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:19:58.126
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:26:02.638
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:26:02.649
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:28:25.177
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:28:25.179
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:34:52.619
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:34:52.621
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:36:55.822
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:36:55.825
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 18:38:18.806
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 18:38:18.866
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:39:21.768
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:39:21.800
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:39:50.836
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:39:50.846
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:40:12.037
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:40:12.055
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 18:41:32.677
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 18:41:32.731
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:42:53.065
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:42:53.093
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 18:43:34.090
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 18:43:34.180
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:46:00.750
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:46:00.776
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:46:21.767
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:46:21.770
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 18:47:06.099
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 18:47:06.161
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:54:42.614
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 18:54:42.625
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:00:58.427
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:00:58.438
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:01:30.067
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:01:30.115
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:04:50.525
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:04:50.537
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:10:56.405
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:10:56.443
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:11:42.450
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:11:42.520
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:14:24.502
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:14:24.528
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:14:29.646
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:14:29.650
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:16:32.312
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:16:32.382
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:22:25.792
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:22:25.870
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:28:27.462
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:28:27.499
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:28:28.744
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:28:28.882
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:29:01.674
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:29:01.696
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:29:01.998
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:29:47.409
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:29:47.434
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:31:11.492
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:31:11.507
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:31:11.515
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:32:06.154
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:32:06.160
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:32:42.019
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:32:42.023
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:32:57.284
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:32:57.287
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:33:29.634
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:33:29.660
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:36:04.030
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:36:04.089
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:40:27.963
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 19:40:28.035
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:43:29.040
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:43:29.074
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:44:00.997
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:44:01.011
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:45:07.166
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:45:07.177
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-11 19:45:48.917
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-11 19:45:48.918
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:45:52.926
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:45:52.928
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:45:59.806
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:45:59.808
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:46:05.129
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:46:05.168
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:50:53.679
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:50:53.707
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:51:26.613
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:51:26.624
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:52:33.105
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:52:33.115
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:56:54.104
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:56:54.140
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:57:07.881
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:57:07.883
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:59:55.056
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 19:59:55.059
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:00:01.216
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:00:01.218
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:00:12.135
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:00:12.137
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-12-11 20:01:43.059
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.ui 2 0 2018-12-11 20:02:03.164
+!MESSAGE Server stopped before before browser could be opened.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-12-11 20:04:26.697
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:05:20.245
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:05:20.266
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:05:20.406
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-11 20:05:47.235
+!MESSAGE Incremental publish failed for module StockManagementStates3FloorsEndpoints
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.235
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.235
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/target/m2e-wtp/web-resources/META-INF/maven/io.altar.upAcademy/StockManagementStates3FloorsEndpoints/pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.235
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/target/m2e-wtp/web-resources/META-INF/maven/io.altar.upAcademy/StockManagementStates3FloorsEndpoints/pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.235
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ProductDTO.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ProductDTO.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.236
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ShelfDTO.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ShelfDTO.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.236
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ProductBusiness.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ProductBusiness.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.236
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ShelfBusiness.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ShelfBusiness.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.236
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/BaseEntity.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/BaseEntity.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.236
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Product.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Product.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.266
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Shelf.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Shelf.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.266
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/EntityRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/EntityRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.266
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ProductRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ProductRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.266
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ShelfRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ShelfRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.266
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ProductServices.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ProductServices.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.266
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ShelfServices.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ShelfServices.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.266
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/App.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/App.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.267
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/target/classes/META-INF/beans.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:05:47.267
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints/target/classes/META-INF/persistence.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 20:06:22.695
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 20:06:22.724
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:09:55.811
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:09:55.844
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:09:55.855
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-11 20:10:06.345
+!MESSAGE Incremental publish failed for module StockManagementStates3FloorsEndpoints
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.345
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ProductDTO.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ProductDTO.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.346
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ShelfDTO.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/DTOs/ShelfDTO.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.346
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ProductBusiness.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ProductBusiness.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.346
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ShelfBusiness.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/business/ShelfBusiness.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.346
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/BaseEntity.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/BaseEntity.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.346
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Product.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Product.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.346
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Shelf.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/models/Shelf.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.347
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/EntityRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/EntityRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.347
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ProductRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ProductRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.347
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ShelfRepository.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/repository/ShelfRepository.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.347
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ShelfServices.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/services/stateMachine/ShelfServices.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-11 20:10:06.347
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/App.class. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war/WEB-INF/classes/io/altar/App.class. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:151)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publishDelta(PublishModuleIncrementalRunner.java:187)
+	at org.jboss.ide.eclipse.as.wtp.core.server.publish.PublishModuleIncrementalRunner.publish(PublishModuleIncrementalRunner.java:118)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:388)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 20:10:33.610
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.ui.dialogs.ModifyDeploymentScannerIntervalDialog$DeploymentScannerUIServerStartedListener$1.run(ModifyDeploymentScannerIntervalDialog.java:82)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 11 more
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 0 2018-12-11 20:10:33.655
+!MESSAGE Unable to retrieve a list of remote deployment scanners for server WildFly 10.x
+!STACK 0
+org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:369)
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9ManagerService.execute(Wildfly9ManagerService.java:172)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerServiceProxy.execute(JBoss7ManagerServiceProxy.java:87)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:295)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility$1.execute(AS7DeploymentScannerUtility.java:1)
+	at org.jboss.ide.eclipse.as.management.core.JBoss7ManagerUtil.executeWithService(JBoss7ManagerUtil.java:136)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.executeWithResult(AS7DeploymentScannerUtility.java:293)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScanners(AS7DeploymentScannerUtility.java:164)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:124)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.AS7DeploymentScannerUtility.getDeploymentScannersBlocking(AS7DeploymentScannerUtility.java:114)
+	at org.jboss.ide.eclipse.as.core.server.internal.v7.LocalJBoss7DeploymentScannerAdditions.ensureScannersAdded(LocalJBoss7DeploymentScannerAdditions.java:63)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions.updateDeploymentScanners(AbstractDeploymentScannerAdditions.java:60)
+	at org.jboss.ide.eclipse.as.core.server.internal.AbstractDeploymentScannerAdditions$1.run(AbstractDeploymentScannerAdditions.java:73)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.jboss.ide.eclipse.as.management.core.JBoss7ManangerException: Could not execute "read-resource" for [
+    {"subsystem" => "deployment-scanner"},
+    {"scanner" => "*"}
+]. Failure was "WFLYCTL0379: System boot is in process; execution of remote management operations is not currently available".
+	at org.jboss.ide.eclipse.as.internal.management.wildfly9.Wildfly9Manager.execute(Wildfly9Manager.java:360)
+	... 13 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:18:41.454
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:18:41.491
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:18:41.501
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:19:02.102
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:19:02.104
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:20:11.745
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2018-12-11 20:20:11.793
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
