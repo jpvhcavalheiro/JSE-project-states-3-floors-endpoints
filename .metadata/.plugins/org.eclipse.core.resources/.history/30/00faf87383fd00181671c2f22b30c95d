@@ -10,10 +10,8 @@ import javax.inject.Inject;
 import javax.transaction.Transactional;
 
 import io.altar.DTOs.ProductDTO;
-import io.altar.models.Product;
-import io.altar.repository.ProductRepository;
-import io.altar.repository.ShelfRepository;
-
+import io.altar.models.*;
+import io.altar.repository.*;
 
 public class ProductBusiness {
 	@Inject

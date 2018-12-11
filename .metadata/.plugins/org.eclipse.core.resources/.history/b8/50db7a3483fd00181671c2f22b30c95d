@@ -21,8 +21,6 @@ import io.altar.models.Product;
 
 
 
-
-
 @Path("/products")
 public class ProductServices {
 	@Inject

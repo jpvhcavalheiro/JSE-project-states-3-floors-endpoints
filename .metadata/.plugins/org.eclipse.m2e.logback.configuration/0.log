@@ -1629,3 +1629,15 @@
 2018-12-11 20:20:11,790 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2018-12-11 20:20:11,792 [Worker-146] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2018-12-11 20:20:11,793 [Worker-146] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-11 20:27:40,600 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-11 20:27:40,643 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-11 20:27:40,644 [Worker-149] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-11 20:27:40,644 [Worker-149] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-11 20:29:27,067 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-11 20:29:27,088 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-11 20:29:27,089 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-11 20:29:27,090 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-11 20:31:33,980 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-11 20:31:34,030 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-11 20:31:34,031 [Worker-154] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-12-11 20:31:34,032 [Worker-154] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
