@@ -32,8 +32,8 @@ public class ProductBusiness {
 	}
 	
 	@Transactional
-	public void provisoryRemoveProductFromProductId(long productIdToDelete){
-		productRepository1.deleteEntity(productRepository1.findById(productIdToDelete));
+	public void provisoryRemoveProductFromProductId(Product productToDelete){
+		productRepository1.deleteEntity(productToDelete);
 	}
 	
 	public ProductDTO provisorySeeAProduct(long productIdToSee){

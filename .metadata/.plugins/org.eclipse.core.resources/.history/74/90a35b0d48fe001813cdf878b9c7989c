@@ -53,10 +53,10 @@ public class ProductServices {
 	}
 	
 	@DELETE
-	@Path("/provisory/{id}")
+	@Path("/provisory")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public void removeProduct(@PathParam("id") long id){
-		productBusiness.provisoryRemoveProductFromProductId(id);
+	public void removeProduct(Product productToDelete){
+		productBusiness.provisoryRemoveProductFromProductId(productToDelete);
 	}
 	
 	@GET
