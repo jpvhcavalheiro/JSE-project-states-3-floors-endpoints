@@ -30,11 +30,12 @@ public class Shelf extends BaseEntity {
 	public void setCapacity(String capacity) {
 		this.capacity = capacity;
 	}
+
 	public Product getProductInShelf() {
 		return productInShelf;
 	}
-	public void setProductInShelf(Product newProductInShelf) {
-		this.productInShelf = newProductInShelf;
+	public void setProductInShelf(Product productInShelf) {
+		this.productInShelf = productInShelf;
 	}
 	public double getRentPrice() {
 		return rentPrice;

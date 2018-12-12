@@ -2042,3 +2042,176 @@
 2018-12-12 16:38:29,502 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2018-12-12 16:38:29,503 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-12-12 16:38:29,504 [Worker-172] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 17:59:45,334 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 17:59:45,356 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 17:59:45,358 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 17:59:45,358 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 17:59:45,359 [Worker-206] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StockManagementStates3FloorsEndpoints
+2018-12-12 17:59:45,359 [Worker-206] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StockManagementStates3FloorsEndpoints
+2018-12-12 17:59:45,366 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:05:16,111 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:05:16,120 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:05:16,123 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:05:16,123 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:05:20,973 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:05:20,974 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:05:20,975 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:05:20,975 [Worker-206] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:15:48,704 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:15:48,710 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:15:48,711 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:15:48,712 [Worker-218] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:19:53,103 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:19:53,119 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:19:53,120 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:19:53,121 [Worker-223] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:27:01,941 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:27:01,957 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:27:01,958 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:27:01,958 [Worker-231] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:27:19,466 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:27:19,479 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:27:19,480 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:27:19,481 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:27:29,914 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:27:29,933 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:27:29,934 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:27:29,934 [Worker-226] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:27:43,158 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:27:43,158 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:27:43,160 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:27:43,160 [Worker-232] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:27:53,325 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:27:53,347 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:27:53,349 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:27:53,349 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:28:07,048 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:28:07,049 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:28:07,050 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:28:07,050 [Worker-233] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:34:13,098 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:34:13,105 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:34:13,106 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:34:13,106 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:34:13,107 [Worker-244] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StockManagementStates3FloorsEndpoints
+2018-12-12 18:34:13,107 [Worker-244] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StockManagementStates3FloorsEndpoints
+2018-12-12 18:34:13,113 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:35:22,234 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:35:22,234 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:35:22,235 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:35:22,235 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:36:53,210 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:36:53,210 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:36:53,211 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:36:53,211 [Worker-244] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:36:54,509 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:36:54,510 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:36:54,511 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:36:54,511 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:38:44,439 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:38:44,448 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:38:44,449 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:38:44,450 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:39:11,849 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:39:11,860 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:39:11,861 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:39:11,861 [Worker-242] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:40:03,864 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:40:03,873 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:40:03,874 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:40:03,874 [Worker-243] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:57:40,040 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:57:40,057 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:57:40,060 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:57:40,060 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:57:40,061 [Worker-263] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StockManagementStates3FloorsEndpoints
+2018-12-12 18:57:40,061 [Worker-263] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StockManagementStates3FloorsEndpoints
+2018-12-12 18:57:40,195 [Worker-263] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:57:58,877 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints
+2018-12-12 18:57:58,889 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-12-12 18:58:08,099 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:58:08,113 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:58:08,132 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:58:08,132 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 18:58:08,133 [Worker-261] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StockManagementStates3FloorsEndpoints
+2018-12-12 18:58:08,133 [Worker-261] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StockManagementStates3FloorsEndpoints
+2018-12-12 18:58:08,137 [Worker-261] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:58:13,802 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints
+2018-12-12 18:58:13,802 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-12-12 18:58:27,519 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:58:27,535 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 18:58:27,536 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 18:58:27,537 [Worker-260] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:01:15,770 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:01:15,787 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:01:15,788 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:01:15,788 [Worker-267] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:01:28,558 [Worker-268] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints
+2018-12-12 19:01:28,574 [Worker-268] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B clean
+2018-12-12 19:01:36,352 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:01:36,364 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:01:36,385 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:01:36,386 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:01:36,386 [Worker-266] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StockManagementStates3FloorsEndpoints
+2018-12-12 19:01:36,387 [Worker-266] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StockManagementStates3FloorsEndpoints
+2018-12-12 19:01:36,395 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:01:45,828 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/alunotarde/Documents/JSE project states 3 floors endpoints/StockManagementStates3FloorsEndpoints
+2018-12-12 19:01:45,829 [Worker-256] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2018-12-12 19:01:58,370 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:01:58,387 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:01:58,389 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:01:58,389 [Worker-256] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:04:49,881 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:04:49,893 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:04:49,895 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:04:49,896 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:06:08,459 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:06:08,474 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:06:08,475 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:06:08,475 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:06:26,765 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:06:26,774 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:06:26,775 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:06:26,775 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:06:46,104 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:06:46,105 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:06:46,106 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:06:46,106 [Worker-270] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:06:58,540 [Worker-274] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:06:58,553 [Worker-274] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:06:58,555 [Worker-274] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:06:58,555 [Worker-274] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:07:13,883 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:07:13,898 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:07:13,899 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:07:13,899 [Worker-266] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:12:29,802 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:12:29,821 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:12:29,822 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:12:29,822 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:12:29,823 [Worker-277] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StockManagementStates3FloorsEndpoints
+2018-12-12 19:12:29,823 [Worker-277] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StockManagementStates3FloorsEndpoints
+2018-12-12 19:12:29,828 [Worker-277] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:13:29,620 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:13:29,634 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:13:29,635 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:13:29,635 [Worker-272] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:13:51,736 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:13:51,736 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:13:51,737 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:13:51,737 [Worker-273] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:21:02,611 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:21:02,617 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:21:02,619 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:21:02,619 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:21:02,619 [Worker-284] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StockManagementStates3FloorsEndpoints
+2018-12-12 19:21:02,620 [Worker-284] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StockManagementStates3FloorsEndpoints
+2018-12-12 19:21:02,626 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:21:17,340 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:21:17,373 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:21:17,375 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:21:17,375 [Worker-284] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-12-12 19:24:00,134 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:24:00,146 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-12 19:24:00,147 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-12 19:24:00,148 [Worker-287] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

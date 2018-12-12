@@ -36,6 +36,11 @@ public class ProductBusiness {
 		productRepository1.deleteEntity(productToDelete);
 	}
 	
+	public ProductDTO provisorySeeAProduct(long productIdToSee){
+		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productIdToSee));
+
+	}
+	
 	/*
 	public static ProductDTO addNewProductToProductRepository(Product productToAdd) {
 		productRepository1.createEntity(productToAdd);

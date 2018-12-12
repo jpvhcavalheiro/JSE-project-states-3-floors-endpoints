@@ -11,7 +11,7 @@ import java.util.Iterator;
 import java.util.Collection;
 
 
-public class EntityRepository<T extends BaseEntity> {
+public abstract class EntityRepository<T extends BaseEntity> {
 	
 	@PersistenceContext
 	protected EntityManager entityManager;
@@ -37,7 +37,13 @@ public class EntityRepository<T extends BaseEntity> {
 		return entityManager.merge(entity);
 	}
 	
+	public T findById(long id){
+		return entityManager.find(getEntityClass(),id);
+	}
 	
+	
+	protected abstract Class<T> getEntityClass();
+	//protected abstract String getAllEntityQueryName();
 	
 	
 	

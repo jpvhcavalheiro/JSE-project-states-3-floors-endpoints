@@ -11,7 +11,7 @@ public class Product extends BaseEntity{
 	private static final long serialVersionUID=1L;
 	
 	@OneToMany(fetch=FetchType.LAZY,mappedBy="productInShelf")
-	private List <Shelf> shelvesList=new ArrayList();
+	private List <Shelf> shelvesList=new ArrayList<>();
 	private int discount;
 	private int iva;
 	private double pvp;

@@ -16,6 +16,7 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriInfo;
 
+import io.altar.DTOs.ProductDTO;
 import io.altar.business.ProductBusiness;
 import io.altar.models.Product;
 
@@ -56,6 +57,13 @@ public class ProductServices {
 	@Consumes(MediaType.APPLICATION_JSON)
 	public void removeProduct(Product productToDelete){
 		productBusiness.provisoryRemoveProductFromProductId(productToDelete);
+	}
+	
+	@GET
+	@Path("/provisory/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public  ProductDTO provisorySeeAProduct(@PathParam("id") long id){
+		return productBusiness.provisorySeeAProduct(id);
 	}
 	
 	/*

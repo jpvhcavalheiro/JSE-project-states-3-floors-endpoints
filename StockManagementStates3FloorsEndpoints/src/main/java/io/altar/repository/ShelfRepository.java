@@ -1,13 +1,18 @@
 package io.altar.repository;
+import java.util.List;
+
+import javax.persistence.TypedQuery;
+
 import io.altar.models.Shelf;
 
 public class ShelfRepository extends EntityRepository<Shelf> {
-	private final static ShelfRepository INSTANCE = new ShelfRepository();
-
-	public static ShelfRepository getInstance() {
-		return INSTANCE;
+	
+	@Override
+	protected Class<Shelf> getEntityClass() {
+		return Shelf.class;
 	}
-
-	public ShelfRepository() {
-	}
+	
+	
+	
+	
 }
