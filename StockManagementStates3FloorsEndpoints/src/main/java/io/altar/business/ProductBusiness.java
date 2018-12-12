@@ -22,18 +22,22 @@ public class ProductBusiness {
 	ShelfRepository shelfRepository1;
 
 	@Transactional
-	public Product provisoryAddNewProduct(Product productToAdd){
+	public void provisoryAddNewProduct(Product productToAdd){
 		productRepository1.createEntity(productToAdd);
-		//Na proxima linha ir buscar o produto á base de dados
-		return productToAdd;
+		
 	}
 	@Transactional
-	public Product provisoryChangeProduct(Product productToChange){
-		return productRepository1.changeEntity(productToChange);
+	public void provisoryChangeProduct(Product productToChange){
+		productRepository1.changeEntity(productToChange);
 	}
 	
+	@Transactional
+	public void provisoryRemoveProductFromProductId(Product productToDelete){
+		productRepository1.deleteEntity(productToDelete);
+	}
 	
-	/*public static ProductDTO addNewProductToProductRepository(Product productToAdd) {
+	/*
+	public static ProductDTO addNewProductToProductRepository(Product productToAdd) {
 		productRepository1.createEntity(productToAdd);
 		if (productToAdd.getShelvesList().size() > 0) {
 			List <Shelf> newShelvesList=productToAdd.getShelvesList();

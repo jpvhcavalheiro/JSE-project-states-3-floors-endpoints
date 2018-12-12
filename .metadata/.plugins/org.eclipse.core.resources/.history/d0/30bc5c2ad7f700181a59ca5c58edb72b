@@ -1,7 +1,0 @@
-package io.altar.services.stateMachine.states;
-
-public class State {
-	public static final ScannerUtils scannerUtils = new ScannerUtils();
-
-	public int execute();
-}

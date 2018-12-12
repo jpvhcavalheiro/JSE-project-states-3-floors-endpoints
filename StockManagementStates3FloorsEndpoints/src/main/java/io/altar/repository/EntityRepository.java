@@ -26,13 +26,13 @@ public class EntityRepository<T extends BaseEntity> {
 	//A função deleteEntityById está MAL!
 	
 	
-	/*public void deleteEntityById(long id) {
-		entityManager.remove(entity);
-	}*/
+	public void deleteEntity(BaseEntity entity) {
+		entityManager.remove(entityManager.contains(entity) ? entity : entityManager.merge(entity));
+	}
 	public T changeEntity(T entity) {
 		return entityManager.merge(entity);
 	}
-	@Transactional
+
 	public T createEntity(T entity) {
 		return entityManager.merge(entity);
 	}

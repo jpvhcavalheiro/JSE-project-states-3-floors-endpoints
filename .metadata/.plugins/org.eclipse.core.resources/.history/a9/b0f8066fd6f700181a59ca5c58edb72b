@@ -1,5 +1,0 @@
-package io.altar.services.stateMachine.states;
-
-public class createShelf {
-
-}

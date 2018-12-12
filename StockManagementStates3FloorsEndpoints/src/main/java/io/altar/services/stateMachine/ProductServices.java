@@ -40,20 +40,26 @@ public class ProductServices {
 	@Path("/provisory")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Product temporaryAddProduct(Product product){
-	return productBusiness.provisoryAddNewProduct(product);
+	public void temporaryAddProduct(Product product){
+	productBusiness.provisoryAddNewProduct(product);
 	}
 	@PUT
 	@Path("/provisory")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public Product changeProduct(Product productToChange){
-		return productBusiness.provisoryChangeProduct(productToChange);
+	public void changeProduct(Product productToChange){
+		productBusiness.provisoryChangeProduct(productToChange);
 	}
 	
+	@DELETE
+	@Path("/provisory")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public void removeProduct(Product productToDelete){
+		productBusiness.provisoryRemoveProductFromProductId(productToDelete);
+	}
 	
-	
-	/*@POST
+	/*
+	@POST
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)

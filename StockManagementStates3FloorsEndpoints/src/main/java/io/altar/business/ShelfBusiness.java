@@ -6,6 +6,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import javax.inject.Inject;
+import javax.transaction.Transactional;
 
 import io.altar.models.*;
 import io.altar.repository.*;
@@ -17,6 +18,21 @@ public class ShelfBusiness {
 	ProductRepository productRepository1;
 	@Inject
 	ShelfRepository shelfRepository1;
+	
+	@Transactional
+	public void provisoryAddNewShelf(Shelf shelfToAdd){
+		shelfRepository1.createEntity(shelfToAdd);
+	}
+	
+	@Transactional
+	public void provisoryChangeShelf(Shelf shelfToChange){
+		shelfRepository1.changeEntity(shelfToChange);
+	}
+	
+	@Transactional
+	public void provisoryRemoveShelf(Shelf shelfToRemove){
+		shelfRepository1.deleteEntity(shelfToRemove);
+	}
 
 //	public static ShelfDTO addNewShelfToShelfRepository(Shelf shelfToAdd) {
 //		shelfRepository1.createEntity(shelfToAdd);

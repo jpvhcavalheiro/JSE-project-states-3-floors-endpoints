@@ -16,7 +16,7 @@ public class Product extends BaseEntity{
 	private int iva;
 	private double pvp;
 	public Product(){}
-	public Product(ArrayList<Long> shelvesIdList, int discount, int iva, double pvp) {
+	public Product(ArrayList<Shelf> shelvesList, int discount, int iva, double pvp) {
 		super();
 		this.shelvesList = shelvesList;
 		this.discount = discount;

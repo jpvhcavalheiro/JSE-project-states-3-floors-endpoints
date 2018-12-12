@@ -3,6 +3,7 @@ package io.altar.services.stateMachine;
 import java.util.ArrayList;
 import java.util.Collection;
 
+import javax.inject.Inject;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.GET;
@@ -24,6 +25,8 @@ import javax.ws.rs.Path;
 
 @Path("/shelves")
 public class ShelfServices {
+	@Inject
+	ShelfBusiness shelfBusiness;
 	@Context
 	private UriInfo context;
 
@@ -34,6 +37,29 @@ public class ShelfServices {
 		return "Eureka! FUNCIONA!";
 	}
 
+	@POST
+	@Path("/provisory")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public void createShelf(Shelf shelf) {
+		shelfBusiness.provisoryAddNewShelf(shelf);
+	}
+	
+	@PUT
+	@Path("/provisory")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public void changeShelf(Shelf shelfToChange){
+		shelfBusiness.provisoryChangeShelf(shelfToChange);
+	}
+	
+	@DELETE
+	@Path("/provisory")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public void removeShelf(Shelf shelfToRemove) {
+		shelfBusiness.provisoryRemoveShelf(shelfToRemove);
+	}
+	
 //	@POST
 //	@Path("/")
 //	@Consumes(MediaType.APPLICATION_JSON)
