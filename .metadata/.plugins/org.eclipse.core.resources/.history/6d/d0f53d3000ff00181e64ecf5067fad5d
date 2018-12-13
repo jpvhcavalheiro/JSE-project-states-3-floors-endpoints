@@ -36,7 +36,7 @@ public class ShelfBusiness {
 
 	@Transactional
 	public ShelfDTO addNewShelfToShelfRepository(Shelf shelfToAdd) {
-		Shelf newShelf = shelfRepository1.createEntity(shelfToAdd);
+		Shelf newShelf=shelfRepository1.createEntity(shelfToAdd);
 		if (newShelf.getProductInShelf() != null) {
 			productRepository1.findById(newShelf.getProductInShelf().getId()).getShelvesList().add(shelfToAdd);
 			productRepository1.changeEntity(shelfToAdd.getProductInShelf());
@@ -76,14 +76,14 @@ public class ShelfBusiness {
 	@Transactional
 	public void removeShelf(long shelfIdToRemove) {
 		if (shelfRepository1.findById(shelfIdToRemove).getProductInShelf() != null) {
-			Product oldProduct = shelfRepository1.findById(shelfIdToRemove).getProductInShelf();
+			Product oldProduct=shelfRepository1.findById(shelfIdToRemove).getProductInShelf();
 			oldProduct.getShelvesList().remove(shelfIdToRemove);
 			productRepository1.changeEntity(oldProduct);
 		}
 		shelfRepository1.deleteEntity(shelfRepository1.findById(shelfIdToRemove));
 	}
-	//
+//
 
-	//
+//
 
 }

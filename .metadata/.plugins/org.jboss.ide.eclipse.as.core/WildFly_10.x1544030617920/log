@@ -2254,3 +2254,21 @@ java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/sta
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 17:32:36.548
 !MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 17:37:45.227
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 17:40:08.071
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 17:40:23.164
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 17:46:49.273
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 17:55:10.820
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 17:55:26.032
+!MESSAGE Server Startup Succeeded

@@ -2861,3 +2861,17 @@
 2018-12-13 17:29:28,281 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2018-12-13 17:29:28,282 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-12-13 17:29:28,283 [Worker-86] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/test/resources
+2018-12-13 17:39:31,562 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 17:39:31,563 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-13 17:39:31,565 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 17:39:31,565 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/test/resources
+2018-12-13 17:39:31,566 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StockManagementStates3FloorsEndpoints
+2018-12-13 17:39:31,566 [Worker-87] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StockManagementStates3FloorsEndpoints
+2018-12-13 17:39:31,596 [Worker-87] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 17:54:51,655 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 17:54:51,665 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-13 17:54:51,666 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-13 17:54:51,666 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/test/resources
+2018-12-13 17:54:51,667 [Worker-94] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of StockManagementStates3FloorsEndpoints
+2018-12-13 17:54:51,667 [Worker-94] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for StockManagementStates3FloorsEndpoints
+2018-12-13 17:54:51,670 [Worker-94] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
