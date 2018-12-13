@@ -12,7 +12,11 @@ public class ShelfRepository extends EntityRepository<Shelf> {
 		return Shelf.class;
 	}
 	
-	
+	@Override
+	protected String getAllEntityQueryName() {
+		return Shelf.GET_ALL_SHELVES_QUERY_NAME;
+	}
+
 	
 	
 }

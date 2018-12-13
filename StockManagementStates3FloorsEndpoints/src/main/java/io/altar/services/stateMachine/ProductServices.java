@@ -37,13 +37,13 @@ public class ProductServices {
 	public String seeHealth(){
 		return "Eureka! FUNCIONA!";
 	}
-	/*@POST
+	@POST
 	@Path("/provisory")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public void temporaryAddProduct(Product product){
 	productBusiness.provisoryAddNewProduct(product);
-	}*/
+	}
 	@PUT
 	@Path("/provisory")
 	@Consumes(MediaType.APPLICATION_JSON)
@@ -96,18 +96,12 @@ public class ProductServices {
 		return productBusiness.changeProduct(productToChange);
 	}
 	
-/*
+
 	@GET
 	@Path("/seeall")
 	@Produces(MediaType.APPLICATION_JSON)
 	public  ArrayList<ProductDTO> seeAllProducts(){
-		return ProductBusiness.getAllProducts();
+		return productBusiness.getAllProducts();
 	}
-	
-	
-	
-
-	
-	*/
 
 }

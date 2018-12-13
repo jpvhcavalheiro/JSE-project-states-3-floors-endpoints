@@ -8,6 +8,7 @@ import javax.transaction.Transactional;
 
 import java.util.HashMap;
 import java.util.Iterator;
+import java.util.List;
 import java.util.Collection;
 
 
@@ -41,9 +42,13 @@ public abstract class EntityRepository<T extends BaseEntity> {
 		return entityManager.find(getEntityClass(),id);
 	}
 	
+	public List<T> getAll() {
+		return entityManager.createNamedQuery(getAllEntityQueryName(), getEntityClass()).getResultList();
+	}
+	
 	
 	protected abstract Class<T> getEntityClass();
-	//protected abstract String getAllEntityQueryName();
+	protected abstract String getAllEntityQueryName();
 	
 	
 	

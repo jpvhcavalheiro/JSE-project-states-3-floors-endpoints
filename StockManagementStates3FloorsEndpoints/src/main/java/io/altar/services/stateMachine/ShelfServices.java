@@ -41,7 +41,7 @@ public class ShelfServices {
 	@Path("/provisory")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public void createShelf(Shelf shelf) {
+	public void provisoryCreateShelf(Shelf shelf) {
 		shelfBusiness.provisoryAddNewShelf(shelf);
 	}
 	
@@ -49,7 +49,7 @@ public class ShelfServices {
 	@Path("/provisory")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public void changeShelf(Shelf shelfToChange){
+	public void provisoryChangeShelf(Shelf shelfToChange){
 		shelfBusiness.provisoryChangeShelf(shelfToChange);
 	}
 	
@@ -60,39 +60,39 @@ public class ShelfServices {
 		shelfBusiness.provisoryRemoveShelf(shelfToRemove);
 	}
 	
-//	@POST
-//	@Path("/")
-//	@Consumes(MediaType.APPLICATION_JSON)
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public ShelfDTO createShelf(Shelf shelf) {
-//		return ShelfBusiness.addNewShelfToShelfRepository(shelf);
-//	}
-//
-//	@GET
-//	@Path("/seeall")
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public ArrayList<ShelfDTO> seeAllShelves() {
-//		return ShelfBusiness.getAllShelves();
-//	}
-//
-//	@GET
-//	@Path("/seeshelfid/{id}")
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public ShelfDTO seeASingleShelf(@PathParam("id") long id) {
-//		return ShelfBusiness.getAShelf(id);
-//	}
-//	@PUT
-//	@Path("/")
-//	@Consumes(MediaType.APPLICATION_JSON)
-//	@Produces(MediaType.APPLICATION_JSON)
-//	public ShelfDTO changeShelf(Shelf shelfToChange){
-//		return ShelfBusiness.changeShelf(shelfToChange);
-//	}
-//
-//	@DELETE
-//	@Path("/{id}")
-//	@Consumes(MediaType.APPLICATION_JSON)
-//	public void removeShelf(@PathParam("id") long id) {
-//		ShelfBusiness.removeShelf(id);
-//	}
+	@POST
+	@Path("/")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public ShelfDTO createShelf(Shelf shelf) {
+		return shelfBusiness.addNewShelfToShelfRepository(shelf);
+	}
+
+	@GET
+	@Path("/seeall")
+	@Produces(MediaType.APPLICATION_JSON)
+	public ArrayList<ShelfDTO> seeAllShelves() {
+		return shelfBusiness.getAllShelves();
+	}
+
+	@GET
+	@Path("/seeshelfid/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public ShelfDTO seeASingleShelf(@PathParam("id") long id) {
+		return shelfBusiness.getAShelf(id);
+	}
+	@PUT
+	@Path("/")
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public ShelfDTO changeShelf(Shelf shelfToChange){
+		return ShelfBusiness.changeShelf(shelfToChange);
+	}
+
+	@DELETE
+	@Path("/{id}")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public void removeShelf(@PathParam("id") long id) {
+		shelfBusiness.removeShelf(id);
+	}
 }

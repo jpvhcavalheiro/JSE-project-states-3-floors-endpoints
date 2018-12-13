@@ -8654,3 +8654,6 @@ java.lang.NumberFormatException: For input string: "1930692"
 	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:145)
 	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:235)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.jface.text 2 0 2018-12-13 00:19:30.144
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.boolean'

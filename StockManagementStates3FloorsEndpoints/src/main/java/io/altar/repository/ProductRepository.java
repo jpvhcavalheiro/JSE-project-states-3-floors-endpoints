@@ -7,5 +7,10 @@ public class ProductRepository extends EntityRepository<Product> {
 		return Product.class;
 	}
 	
+	@Override
+	protected String getAllEntityQueryName() {
+		return Product.GET_ALL_PRODUCTS_QUERY_NAME;
+	}
+	
 
 }

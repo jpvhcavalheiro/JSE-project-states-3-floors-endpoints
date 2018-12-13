@@ -18,67 +18,68 @@ public class ShelfBusiness {
 	ProductRepository productRepository1;
 	@Inject
 	ShelfRepository shelfRepository1;
-	
+
 	@Transactional
-	public void provisoryAddNewShelf(Shelf shelfToAdd){
+	public void provisoryAddNewShelf(Shelf shelfToAdd) {
 		shelfRepository1.createEntity(shelfToAdd);
 	}
-	
+
 	@Transactional
-	public void provisoryChangeShelf(Shelf shelfToChange){
+	public void provisoryChangeShelf(Shelf shelfToChange) {
 		shelfRepository1.changeEntity(shelfToChange);
 	}
-	
+
 	@Transactional
-	public void provisoryRemoveShelf(Shelf shelfToRemove){
+	public void provisoryRemoveShelf(Shelf shelfToRemove) {
 		shelfRepository1.deleteEntity(shelfToRemove);
 	}
 
-//	public static ShelfDTO addNewShelfToShelfRepository(Shelf shelfToAdd) {
-//		shelfRepository1.createEntity(shelfToAdd);
-//		if (shelfRepository1.fetchEntityById(shelfToAdd.getId()).getProductInShelf() != null) {
-//			productRepository1
-//					.fetchEntityById(shelfToAdd.getProductInShelf().getId())
-//					.getShelvesList().add(shelfToAdd);
-//		}
-//		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.fetchEntityById(shelfToAdd.getId()));
-//	}
+	public ShelfDTO addNewShelfToShelfRepository(Shelf shelfToAdd) {
+		shelfRepository1.createEntity(shelfToAdd);
+		if (shelfRepository1.findById(shelfToAdd.getId()).getProductInShelf() != null) {
+			productRepository1.findById(shelfToAdd.getProductInShelf().getId()).getShelvesList().add(shelfToAdd);
+		}
+		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.findById(shelfToAdd.getId()));
+	}
+
+	public ArrayList<ShelfDTO> getAllShelves() {
+		List<ShelfDTO> shelfRepository1DTO = new ArrayList<ShelfDTO>();
+		for (Shelf item : shelfRepository1.getAll()) {
+			shelfRepository1DTO.add(ShelfDTO.turnShelfToShelfDTO(item));
+		}
+		return (ArrayList<ShelfDTO>) shelfRepository1DTO;
+	}
+
+	public ShelfDTO getAShelf(long shelfIdToSearch) {
+		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.findById(shelfIdToSearch));
+	}
+
+	public ShelfDTO changeShelf(Shelf shelfToEdit) {
+		Shelf oldShelf = shelfRepository1.findById(shelfToEdit.getId());
+		if (oldShelf.getProductInShelf() != null) {
+			Product oldProduct = productRepository1.findById(oldShelf.getProductInShelf().getId());
+			oldProduct.getShelvesList().remove(oldShelf);
+			productRepository1.changeEntity(oldProduct);
+		}
+		if (shelfToEdit.getProductInShelf() != null) {
+			Product newProduct = productRepository1.findById(shelfToEdit.getProductInShelf().getId());
+			newProduct.getShelvesList().add(shelfToEdit);
+			productRepository1.changeEntity(newProduct);
+		}
+		shelfRepository1.changeEntity(shelfToEdit);
+		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.findById(shelfToEdit.getId()));
+	}
+
+	public void removeShelf(long shelfIdToRemove) {
+		if (shelfRepository1.findById(shelfIdToRemove).getProductInShelf() != null) {
+			Product oldProduct=shelfRepository1.findById(shelfIdToRemove).getProductInShelf();
+			oldProduct.getShelvesList().remove(shelfIdToRemove);
+			productRepository1.changeEntity(oldProduct);
+		}
+		shelfRepository1.deleteEntity(shelfRepository1.findById(shelfIdToRemove));
+	}
 //
-//	public static ShelfDTO getAShelf(long shelfIdToSearch) {
-//		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.fetchEntityById(shelfIdToSearch));
-//	}
+
 //
-//	public static void removeShelf(long shelfIdToRemove) {
-//		if (shelfRepository1.fetchEntityById(shelfIdToRemove).getProductInShelf() != null) {
-//			Product oldProduct=shelfRepository1.fetchEntityById(shelfIdToRemove).getProductInShelf();
-//			oldProduct.getShelvesList().remove(shelfIdToRemove);
-//			productRepository1.changeEntityById(oldProduct);
-//		}
-//		shelfRepository1.deleteEntityById(shelfIdToRemove);
-//	}
-//
-//	public static ArrayList<ShelfDTO> getAllShelves() {
-//		List <ShelfDTO> shelfRepository1DTO=new ArrayList<ShelfDTO>();
-//		for(Shelf item:shelfRepository1.showAll()){
-//			shelfRepository1DTO.add(ShelfDTO.turnShelfToShelfDTO(item));
-//		}
-//		return (ArrayList<ShelfDTO>) shelfRepository1DTO;
-//	}
-//
-//	public static ShelfDTO changeShelf(Shelf shelfToEdit) {
-//		Shelf oldShelf=shelfRepository1.fetchEntityById(shelfToEdit.getId());
-//		if(oldShelf.getProductInShelf()!=null){
-//			Product oldProduct=productRepository1.fetchEntityById(oldShelf.getProductInShelf().getId());
-//			oldProduct.getShelvesList().remove(oldShelf);
-//			productRepository1.changeEntityById(oldProduct);
-//		}
-//		if(shelfToEdit.getProductInShelf()!=null){
-//			Product newProduct=productRepository1.fetchEntityById(shelfToEdit.getProductInShelf().getId());
-//			newProduct.getShelvesList().add(shelfToEdit);
-//			productRepository1.changeEntityById(newProduct);
-//		}
-//		shelfRepository1.changeEntityById(shelfToEdit);
-//		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.fetchEntityById(shelfToEdit.getId()));
-//	}
 
 }

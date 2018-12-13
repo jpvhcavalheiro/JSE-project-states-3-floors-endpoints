@@ -90,6 +90,14 @@ public class ProductBusiness {
 		productRepository1.changeEntity(productToChange);
 		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productToChange.getId()));
 	}
+	
+	public ArrayList<ProductDTO> getAllProducts() {
+		ArrayList <ProductDTO> productRepository1DTO=new ArrayList<ProductDTO>();
+		for(Product item:productRepository1.showAll()){
+			productRepository1DTO.add(ProductDTO.turnProductToProductDTO(item));
+		}
+		return productRepository1DTO;
+	}
 /*
 	
 	public static boolean isThereThisShelf(long shelfIdToTest) {
@@ -100,13 +108,7 @@ public class ProductBusiness {
 		}
 	}
 
-	public static ArrayList<ProductDTO> getAllProducts() {
-		ArrayList <ProductDTO> productRepository1DTO=new ArrayList<ProductDTO>();
-		for(Product item:productRepository1.showAll()){
-			productRepository1DTO.add(ProductDTO.turnProductToProductDTO(item));
-		}
-		return productRepository1DTO;
-	}
+	
 
 	public static boolean isThereThisProduct(long productIdToTest) {
 		if (productRepository1.fetchEntityById(productIdToTest) == null) {
