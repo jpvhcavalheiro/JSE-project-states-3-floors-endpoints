@@ -9,9 +9,7 @@
 <fullyQualifiedTypeName name="java.util.Arrays"/>
 <fullyQualifiedTypeName name="io.altar.DTOs.ProductDTO"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="io.altar.models.Shelf"/>
 <fullyQualifiedTypeName name="io.altar.DTOs.ShelfDTO"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="io.altar.models.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
@@ -30,4 +28,7 @@
 <fullyQualifiedTypeName name="io.altar.repository.ProductRepository"/>
 <fullyQualifiedTypeName name="io.altar.repository.ShelfRepository"/>
 <fullyQualifiedTypeName name="io.altar.models.Product"/>
+<fullyQualifiedTypeName name="io.altar.models.Shelf"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
 </qualifiedTypeNameHistroy>

@@ -1,7 +1,0 @@
-package io.altar.business;
-
-public class ShelfBusiness {
-	public static Shelf addNewShelfToShelfRepository(){
-		shelfRepository1.
-	}
-}

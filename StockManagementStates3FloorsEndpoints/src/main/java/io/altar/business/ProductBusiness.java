@@ -37,12 +37,13 @@ public class ProductBusiness {
 		productRepository1.deleteEntity(productRepository1.findById(productIdToDelete));
 	}
 	
+	@Transactional
 	public ProductDTO provisorySeeAProduct(long productIdToSee){
 		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productIdToSee));
 
 	}
 	
-	
+	@Transactional
 	public ProductDTO addNewProductToProductRepository(Product productToAdd) {
 		productRepository1.createEntity(productToAdd);
 		if (productToAdd.getShelvesList().size() > 0) {
@@ -54,10 +55,12 @@ public class ProductBusiness {
 			for (Shelf item : oldShelvesList) {
 				if (shelfRepository1.findById(item.getId()).getProductInShelf() == null) {
 					shelfRepository1.findById(item.getId()).setProductInShelf(productToAdd);
+					shelfRepository1.changeEntity(item);
 				} else {
 					productRepository1.findById(productToAdd.getId()).getShelvesList().remove(item);
 				}
 			}
+			productRepository1.changeEntity(productToAdd);
 		}
 		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productToAdd.getId()));
 	}
@@ -66,16 +69,20 @@ public class ProductBusiness {
 		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productIdToSee));
 	}
 	
+	@Transactional
 	public void removeProductFromProductId(long productId) {
 		Product oldProduct = productRepository1.findById(productId);
 		if (oldProduct.getShelvesList().size() > 0) {
 			for (Shelf item : oldProduct.getShelvesList()) {
 				item.setProductInShelf(null);
+				shelfRepository1.findById(item.getId());
+				shelfRepository1.changeEntity(item);
 			}
 		}
 		productRepository1.deleteEntity(productRepository1.findById(productId));
 	}
 	
+	@Transactional
 	public ProductDTO changeProduct(Product productToChange) {
 		if(!productRepository1.findById(productToChange.getId()).getShelvesList().isEmpty()){
 			for (Shelf item : productRepository1.findById(productToChange.getId()).getShelvesList()) {
@@ -93,7 +100,7 @@ public class ProductBusiness {
 	
 	public ArrayList<ProductDTO> getAllProducts() {
 		ArrayList <ProductDTO> productRepository1DTO=new ArrayList<ProductDTO>();
-		for(Product item:productRepository1.showAll()){
+		for(Product item:productRepository1.getAll()){
 			productRepository1DTO.add(ProductDTO.turnProductToProductDTO(item));
 		}
 		return productRepository1DTO;
