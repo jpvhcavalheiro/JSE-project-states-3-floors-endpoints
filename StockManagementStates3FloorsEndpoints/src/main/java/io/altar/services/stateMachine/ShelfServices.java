@@ -34,7 +34,7 @@ public class ShelfServices {
 	@Path("/eureka")
 	@Produces(MediaType.TEXT_PLAIN)
 	public String seeHealth() {
-		return "Eureka! FUNCIONA!";
+		return "Eureka! FUNCIONA BEM!";
 	}
 
 	@POST
@@ -86,7 +86,7 @@ public class ShelfServices {
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public ShelfDTO changeShelf(Shelf shelfToChange){
-		return ShelfBusiness.changeShelf(shelfToChange);
+		return shelfBusiness.changeShelf(shelfToChange);
 	}
 
 	@DELETE

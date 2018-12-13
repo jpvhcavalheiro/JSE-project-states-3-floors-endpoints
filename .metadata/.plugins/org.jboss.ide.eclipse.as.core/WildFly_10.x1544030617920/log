@@ -1893,3 +1893,364 @@ java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/sta
 
 !ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-12 15:52:17.279
 !MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+!SESSION 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 14:53:41.865
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-12-13 14:54:02.501
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-13 14:54:02.559
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-13 14:54:22.598
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 14:55:05.710
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-13 14:55:25.635
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 14:55:25.741
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-13 14:55:45.703
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 14:56:32.808
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 14:56:40.792
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 14:56:56.245
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-13 14:56:56.252
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-13 14:57:16.282
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 15:00:16.615
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 15:02:42.737
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 15:02:58.381
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-13 15:02:58.396
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-13 15:03:18.453
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 15:03:50.880
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298244 2018-12-13 15:11:38.445
+!MESSAGE Full publish failed for module StockManagementStates3FloorsEndpoints
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.445
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.445
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/m2e-wtp/web-resources/META-INF/maven/io.altar.upAcademy/StockManagementStates3FloorsEndpoints/pom.properties
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.445
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/m2e-wtp/web-resources/META-INF/maven/io.altar.upAcademy/StockManagementStates3FloorsEndpoints/pom.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.445
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/DTOs/ProductDTO.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.445
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/DTOs/ShelfDTO.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.445
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/business/ProductBusiness.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.445
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/business/ShelfBusiness.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.445
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/models/BaseEntity.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.445
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/models/Product.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.446
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/models/Shelf.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.446
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/repository/EntityRepository.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.446
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/repository/ProductRepository.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.446
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/repository/ShelfRepository.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.446
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/services/stateMachine/ProductServices.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.446
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/services/stateMachine/ShelfServices.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.446
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/io/altar/App.class
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.446
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/META-INF/beans.xml
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:11:38.446
+!MESSAGE Error reading file /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/target/classes/META-INF/persistence.xml
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2018-12-13 15:15:29.357
+!MESSAGE Unable to delete module Module[StockManagementStates3FloorsEndpoints,org.eclipse.jst.jee.server:StockManagementStates3FloorsEndpoints]
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.removeModule(StandardFileSystemPublishController.java:486)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.WildFlyFileSystemPublishController.removeModule(WildFlyFileSystemPublishController.java:36)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:339)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:15:29.358
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.removeModule(StandardFileSystemPublishController.java:486)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.WildFlyFileSystemPublishController.removeModule(WildFlyFileSystemPublishController.java:36)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:339)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 15:15:29.681
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 15:15:51.595
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 15:25:45.845
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 15:26:08.729
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 4 16973825 2018-12-13 15:26:23.193
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 16842784 2018-12-13 15:26:23.206
+!MESSAGE Poll Thread Aborted: null
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-13 15:26:23.210
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-13 15:26:43.237
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 15:26:49.845
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 15:27:03.535
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 0 2018-12-13 15:27:03.550
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x not yet fully deployed. Waiting...
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 0 2018-12-13 15:27:23.652
+!MESSAGE Module StockManagementStates3FloorsEndpoints on WildFly 10.x still not ready to be shown in browser. Aborting delay.
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 15:32:13.716
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 1644298246 2018-12-13 15:32:27.721
+!MESSAGE Unable to delete module Module[StockManagementStates3FloorsEndpoints,org.eclipse.jst.jee.server:StockManagementStates3FloorsEndpoints]
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.removeModule(StandardFileSystemPublishController.java:486)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.WildFlyFileSystemPublishController.removeModule(WildFlyFileSystemPublishController.java:36)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:339)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.jboss.ide.eclipse.as.wtp.core 4 1644298251 2018-12-13 15:32:27.721
+!MESSAGE Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war. May be locked by another process.
+!STACK 0
+java.lang.Exception: Could not delete /Users/alunotarde/wildfly-10.1.0.Final/standalone/deployments/StockManagementStates3FloorsEndpoints.war. May be locked by another process.
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.LocalFilesystemController.deleteResource(LocalFilesystemController.java:260)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.removeModule(StandardFileSystemPublishController.java:486)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.WildFlyFileSystemPublishController.removeModule(WildFlyFileSystemPublishController.java:36)
+	at org.jboss.tools.as.core.server.controllable.subsystems.internal.StandardFileSystemPublishController.publishModule(StandardFileSystemPublishController.java:339)
+	at org.jboss.ide.eclipse.as.wtp.core.server.behavior.ControllableServerBehavior.publishModule(ControllableServerBehavior.java:143)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModule(ServerBehaviourDelegate.java:1091)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publishModules(ServerBehaviourDelegate.java:1183)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:987)
+	at org.eclipse.wst.server.core.model.ServerBehaviourDelegate.publish(ServerBehaviourDelegate.java:774)
+	at org.eclipse.wst.server.core.internal.Server.publishImpl(Server.java:3172)
+	at org.eclipse.wst.server.core.internal.Server$PublishJob.run(Server.java:345)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 15:33:11.176
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 15:33:26.172
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 15:35:02.422
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 15:37:27.683
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 15:37:42.274
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 15:44:23.325
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 15:44:36.639
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 15:44:52.751
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 15:47:02.349
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 15:49:05.237
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 15:49:20.149
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 15:50:56.557
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 15:51:21.349
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 15:51:36.442
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 15:52:44.850
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 15:53:28.511
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 15:53:43.527
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 15:58:16.037
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 15:58:50.537
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 15:59:05.421
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 16:01:04.142
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 16:01:46.101
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 16:02:01.079
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 16:06:01.640
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 16:06:23.549
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 16:06:38.248
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 16:16:21.546
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 16:16:26.170
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 16:16:41.393
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 16:19:43.227
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 16:19:55.600
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 16:20:11.042
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 16:30:17.166
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 16:36:18.433
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 16:36:33.454
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 16:37:54.649
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 16:45:06.314
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 16:45:21.573
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 16:48:48.417
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 16:48:52.120
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 16:49:07.042
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 16:51:25.555
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 16:51:28.332
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 16:51:43.019
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 17:22:35.715
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 17:25:38.219
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 17:25:55.454
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 17:27:26.558
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 17:29:31.202
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 17:29:45.853
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2018-12-13 17:30:51.647
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2018-12-13 17:32:21.944
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2018-12-13 17:32:36.548
+!MESSAGE Server Startup Succeeded

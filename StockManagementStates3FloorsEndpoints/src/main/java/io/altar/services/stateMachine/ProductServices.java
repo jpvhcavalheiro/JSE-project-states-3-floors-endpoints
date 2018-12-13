@@ -20,87 +20,84 @@ import io.altar.DTOs.ProductDTO;
 import io.altar.business.ProductBusiness;
 import io.altar.models.Product;
 
-
-
-
-
 @Path("/products")
 public class ProductServices {
 	@Inject
 	ProductBusiness productBusiness;
 	@Context
 	private UriInfo context;
-	
+
 	@GET
 	@Path("/eureka")
 	@Produces(MediaType.TEXT_PLAIN)
-	public String seeHealth(){
+	public String seeHealth() {
 		return "Eureka! FUNCIONA!";
 	}
+
 	@POST
 	@Path("/provisory")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public void temporaryAddProduct(Product product){
-	productBusiness.provisoryAddNewProduct(product);
+	public void temporaryAddProduct(Product product) {
+		productBusiness.provisoryAddNewProduct(product);
 	}
+
 	@PUT
 	@Path("/provisory")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public void provisoryChangeProduct(Product productToChange){
+	public void provisoryChangeProduct(Product productToChange) {
 		productBusiness.provisoryChangeProduct(productToChange);
 	}
-	
+
 	@DELETE
 	@Path("/provisory/{id}")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public void provisoryRemoveProduct(@PathParam("id") long id){
+	public void provisoryRemoveProduct(@PathParam("id") long id) {
 		productBusiness.provisoryRemoveProductFromProductId(id);
 	}
-	
+
 	@GET
 	@Path("/provisory/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public  ProductDTO provisorySeeAProduct(@PathParam("id") long id){
+	public ProductDTO provisorySeeAProduct(@PathParam("id") long id) {
 		return productBusiness.provisorySeeAProduct(id);
 	}
-	
-	
+
 	@POST
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public ProductDTO createProduct(Product product){
-	return productBusiness.addNewProductToProductRepository(product);
+	public ProductDTO createProduct(Product product) {
+		return productBusiness.addNewProductToProductRepository(product);
 	}
-	
+
 	@GET
 	@Path("/seeproductid/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
-	public ProductDTO seeASingleProduct(@PathParam("id") long id){
+	public ProductDTO seeASingleProduct(@PathParam("id") long id) {
 		return productBusiness.getAProduct(id);
 	}
-	
+
 	@DELETE
 	@Path("/{id}")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public void removeProduct(@PathParam("id") long id){
+	public void removeProduct(@PathParam("id") long id) {
 		productBusiness.removeProductFromProductId(id);
 	}
-	
+
 	@PUT
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public ProductDTO changeProduct(Product productToChange){
+	@Produces(MediaType.APPLICATION_JSON)
+	public ProductDTO changeProduct(Product productToChange) {
 		return productBusiness.changeProduct(productToChange);
 	}
-	
 
 	@GET
 	@Path("/seeall")
 	@Produces(MediaType.APPLICATION_JSON)
-	public  ArrayList<ProductDTO> seeAllProducts(){
+	public ArrayList<ProductDTO> seeAllProducts() {
 		return productBusiness.getAllProducts();
 	}
 

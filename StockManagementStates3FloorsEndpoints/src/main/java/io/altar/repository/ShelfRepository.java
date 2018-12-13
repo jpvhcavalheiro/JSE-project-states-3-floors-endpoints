@@ -16,6 +16,12 @@ public class ShelfRepository extends EntityRepository<Shelf> {
 	protected String getAllEntityQueryName() {
 		return Shelf.GET_ALL_SHELVES_QUERY_NAME;
 	}
+	
+	public List<Shelf> findByProductId(long id) {
+		TypedQuery<Shelf> query=entityManager.createNamedQuery(Shelf.GET_SHELVES_BY_PRODUCT_ID_QUERY_NAME, Shelf.class);
+		query.setParameter("productId",id);
+		return query.getResultList();
+	}
 
 	
 	

@@ -1,0 +1,129 @@
+package io.altar.business;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.List;
+
+import javax.inject.Inject;
+import javax.transaction.Transactional;
+
+import io.altar.DTOs.ProductDTO;
+import io.altar.models.Product;
+import io.altar.models.Shelf;
+import io.altar.repository.ProductRepository;
+import io.altar.repository.ShelfRepository;
+
+public class ProductBusiness {
+	@Inject
+	ProductRepository productRepository1;
+	@Inject
+	ShelfRepository shelfRepository1;
+
+	@Transactional
+	public void provisoryAddNewProduct(Product productToAdd) {
+		productRepository1.createEntity(productToAdd);
+
+	}
+
+	@Transactional
+	public void provisoryChangeProduct(Product productToChange) {
+		productRepository1.changeEntity(productToChange);
+	}
+
+	@Transactional
+	public void provisoryRemoveProductFromProductId(long productIdToDelete) {
+		productRepository1.deleteEntity(productRepository1.findById(productIdToDelete));
+	}
+
+	@Transactional
+	public ProductDTO provisorySeeAProduct(long productIdToSee) {
+		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productIdToSee));
+
+	}
+
+	@Transactional
+	public ProductDTO addNewProductToProductRepository(Product productToAdd) {
+		Product productSaved = productRepository1.createEntity(productToAdd);
+		if (!productSaved.getShelvesList().isEmpty()) {
+			List<Shelf> newShelvesList = productSaved.getShelvesList();
+			List<Shelf> oldShelvesList = new ArrayList<Shelf>();
+			for (Shelf item : newShelvesList) {
+				oldShelvesList.add(item);
+			}
+			for (Shelf item : oldShelvesList) {
+				if (shelfRepository1.findById(item.getId()).getProductInShelf() == null) {
+					shelfRepository1.findById(item.getId()).setProductInShelf(productSaved);
+					shelfRepository1.changeEntity(item);
+				} else {
+					productRepository1.findById(productSaved.getId()).getShelvesList().remove(item);
+				}
+			}
+			productRepository1.changeEntity(productSaved);
+		}
+		return ProductDTO.turnProductToProductDTO(productSaved);
+	}
+
+	public ProductDTO getAProduct(long productIdToSee) {
+		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productIdToSee));
+	}
+
+	@Transactional
+	public void removeProductFromProductId(long productId) {
+		Product oldProduct = productRepository1.findById(productId);
+		if (oldProduct.getShelvesList().size() > 0) {
+			for (Shelf item : oldProduct.getShelvesList()) {
+				item.setProductInShelf(null);
+				shelfRepository1.findById(item.getId());
+				shelfRepository1.changeEntity(item);
+			}
+		}
+		productRepository1.deleteEntity(productRepository1.findById(productId));
+	}
+
+	@Transactional
+	public ProductDTO changeProduct(Product productToChange) {
+		// public void changeProduct(Product productToChange) {
+		Product previousProduct = productRepository1.findById(productToChange.getId());
+		if (!previousProduct.getShelvesList().isEmpty()) {
+			for (Shelf item : previousProduct.getShelvesList()) {
+				item.setProductInShelf(null);
+				shelfRepository1.changeEntity(item);
+			}
+		}
+		Product changedProduct = productRepository1.changeEntity(productToChange);
+		if (!changedProduct.getShelvesList().isEmpty()) {
+			for (Shelf item : changedProduct.getShelvesList()) {
+				item.setProductInShelf(changedProduct);
+				shelfRepository1.changeEntity(item);
+			}
+		}
+		return ProductDTO.turnProductToProductDTO(changedProduct);
+		// return changedProduct;
+		// ProductDTO.turnProductToProductDTO(productRepository1.findById(changedProduct.getId()));
+	}
+
+	public ArrayList<ProductDTO> getAllProducts() {
+		ArrayList<ProductDTO> productRepository1DTO = new ArrayList<ProductDTO>();
+		for (Product item : productRepository1.getAll()) {
+			productRepository1DTO.add(ProductDTO.turnProductToProductDTO(item));
+		}
+		return productRepository1DTO;
+	}
+	/*
+	 * 
+	 * public static boolean isThereThisShelf(long shelfIdToTest) { if
+	 * (shelfRepository1.fetchEntityById(shelfIdToTest) == null) { return false;
+	 * } else { return true; } }
+	 * 
+	 * 
+	 * 
+	 * public static boolean isThereThisProduct(long productIdToTest) { if
+	 * (productRepository1.fetchEntityById(productIdToTest) == null) { return
+	 * false; } else { return true; } }
+	 * 
+	 * 
+	 * 
+	 */
+}

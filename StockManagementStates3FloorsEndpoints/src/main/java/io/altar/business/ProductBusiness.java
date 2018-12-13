@@ -15,7 +15,6 @@ import io.altar.models.Shelf;
 import io.altar.repository.ProductRepository;
 import io.altar.repository.ShelfRepository;
 
-
 public class ProductBusiness {
 	@Inject
 	ProductRepository productRepository1;
@@ -23,52 +22,53 @@ public class ProductBusiness {
 	ShelfRepository shelfRepository1;
 
 	@Transactional
-	public void provisoryAddNewProduct(Product productToAdd){
+	public void provisoryAddNewProduct(Product productToAdd) {
 		productRepository1.createEntity(productToAdd);
-		
+
 	}
+
 	@Transactional
-	public void provisoryChangeProduct(Product productToChange){
+	public void provisoryChangeProduct(Product productToChange) {
 		productRepository1.changeEntity(productToChange);
 	}
-	
+
 	@Transactional
-	public void provisoryRemoveProductFromProductId(long productIdToDelete){
+	public void provisoryRemoveProductFromProductId(long productIdToDelete) {
 		productRepository1.deleteEntity(productRepository1.findById(productIdToDelete));
 	}
-	
+
 	@Transactional
-	public ProductDTO provisorySeeAProduct(long productIdToSee){
+	public ProductDTO provisorySeeAProduct(long productIdToSee) {
 		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productIdToSee));
 
 	}
-	
+
 	@Transactional
 	public ProductDTO addNewProductToProductRepository(Product productToAdd) {
-		productRepository1.createEntity(productToAdd);
-		if (productToAdd.getShelvesList().size() > 0) {
-			List <Shelf> newShelvesList=productToAdd.getShelvesList();
-			List<Shelf> oldShelvesList=new ArrayList<Shelf>();
-			for(Shelf item:newShelvesList){
+		Product productSaved = productRepository1.createEntity(productToAdd);
+		if (!productSaved.getShelvesList().isEmpty()) {
+			List<Shelf> newShelvesList = productSaved.getShelvesList();
+			List<Shelf> oldShelvesList = new ArrayList<Shelf>();
+			for (Shelf item : newShelvesList) {
 				oldShelvesList.add(item);
 			}
 			for (Shelf item : oldShelvesList) {
 				if (shelfRepository1.findById(item.getId()).getProductInShelf() == null) {
-					shelfRepository1.findById(item.getId()).setProductInShelf(productToAdd);
+					shelfRepository1.findById(item.getId()).setProductInShelf(productSaved);
 					shelfRepository1.changeEntity(item);
 				} else {
-					productRepository1.findById(productToAdd.getId()).getShelvesList().remove(item);
+					productRepository1.findById(productSaved.getId()).getShelvesList().remove(item);
 				}
 			}
-			productRepository1.changeEntity(productToAdd);
+			productRepository1.changeEntity(productSaved);
 		}
-		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productToAdd.getId()));
+		return ProductDTO.turnProductToProductDTO(productSaved);
 	}
-	
+
 	public ProductDTO getAProduct(long productIdToSee) {
 		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productIdToSee));
 	}
-	
+
 	@Transactional
 	public void removeProductFromProductId(long productId) {
 		Product oldProduct = productRepository1.findById(productId);
@@ -81,51 +81,46 @@ public class ProductBusiness {
 		}
 		productRepository1.deleteEntity(productRepository1.findById(productId));
 	}
-	
+
 	@Transactional
 	public ProductDTO changeProduct(Product productToChange) {
-		if(!productRepository1.findById(productToChange.getId()).getShelvesList().isEmpty()){
-			for (Shelf item : productRepository1.findById(productToChange.getId()).getShelvesList()) {
-				shelfRepository1.findById(item.getId()).setProductInShelf(null);
+		Product previousProduct = productRepository1.findById(productToChange.getId());
+		if (!previousProduct.getShelvesList().isEmpty()) {
+			for (Shelf item : previousProduct.getShelvesList()) {
+				item.setProductInShelf(null);
+				shelfRepository1.changeEntity(item);
 			}
 		}
-		if(!productToChange.getShelvesList().isEmpty()){
-			for (Shelf item : productToChange.getShelvesList()) {
-				shelfRepository1.findById(item.getId()).setProductInShelf(productToChange);
+		Product changedProduct = productRepository1.changeEntity(productToChange);
+		if (!changedProduct.getShelvesList().isEmpty()) {
+			for (Shelf item : changedProduct.getShelvesList()) {
+				item.setProductInShelf(changedProduct);
+				shelfRepository1.changeEntity(item);
 			}
 		}
-		productRepository1.changeEntity(productToChange);
-		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productToChange.getId()));
+		return ProductDTO.turnProductToProductDTO(changedProduct);
 	}
-	
+
 	public ArrayList<ProductDTO> getAllProducts() {
-		ArrayList <ProductDTO> productRepository1DTO=new ArrayList<ProductDTO>();
-		for(Product item:productRepository1.getAll()){
+		ArrayList<ProductDTO> productRepository1DTO = new ArrayList<ProductDTO>();
+		for (Product item : productRepository1.getAll()) {
 			productRepository1DTO.add(ProductDTO.turnProductToProductDTO(item));
 		}
 		return productRepository1DTO;
 	}
-/*
-	
-	public static boolean isThereThisShelf(long shelfIdToTest) {
-		if (shelfRepository1.fetchEntityById(shelfIdToTest) == null) {
-			return false;
-		} else {
-			return true;
-		}
-	}
-
-	
-
-	public static boolean isThereThisProduct(long productIdToTest) {
-		if (productRepository1.fetchEntityById(productIdToTest) == null) {
-			return false;
-		} else {
-			return true;
-		}
-	}
-
-	
-
-	*/
+	/*
+	 * 
+	 * public static boolean isThereThisShelf(long shelfIdToTest) { if
+	 * (shelfRepository1.fetchEntityById(shelfIdToTest) == null) { return false;
+	 * } else { return true; } }
+	 * 
+	 * 
+	 * 
+	 * public static boolean isThereThisProduct(long productIdToTest) { if
+	 * (productRepository1.fetchEntityById(productIdToTest) == null) { return
+	 * false; } else { return true; } }
+	 * 
+	 * 
+	 * 
+	 */
 }
