@@ -10,4 +10,5 @@
 /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/business/ShelfBusiness.java
 /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/models/Shelf.java
 /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/App.java
+/Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/filters/CORSFilter.java
 /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/models/BaseEntity.java

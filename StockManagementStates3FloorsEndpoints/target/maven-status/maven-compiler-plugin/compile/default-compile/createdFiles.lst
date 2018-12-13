@@ -1,6 +1,7 @@
 io/altar/business/ProductBusiness.class
 io/altar/business/ShelfBusiness.class
 io/altar/repository/ShelfRepository.class
+io/altar/filters/CORSFilter.class
 io/altar/services/stateMachine/ProductServices.class
 io/altar/DTOs/ProductDTO.class
 io/altar/models/Product.class

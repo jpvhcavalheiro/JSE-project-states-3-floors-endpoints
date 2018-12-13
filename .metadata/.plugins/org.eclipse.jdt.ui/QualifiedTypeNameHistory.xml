@@ -31,4 +31,5 @@
 <fullyQualifiedTypeName name="io.altar.models.Shelf"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.persistence.NamedQuery"/>
+<fullyQualifiedTypeName name="javax.persistence.NamedQueries"/>
 </qualifiedTypeNameHistroy>
