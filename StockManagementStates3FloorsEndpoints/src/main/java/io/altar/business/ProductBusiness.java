@@ -11,6 +11,7 @@ import javax.transaction.Transactional;
 
 import io.altar.DTOs.ProductDTO;
 import io.altar.models.Product;
+import io.altar.models.Shelf;
 import io.altar.repository.ProductRepository;
 import io.altar.repository.ShelfRepository;
 
@@ -41,8 +42,8 @@ public class ProductBusiness {
 
 	}
 	
-	/*
-	public static ProductDTO addNewProductToProductRepository(Product productToAdd) {
+	
+	public ProductDTO addNewProductToProductRepository(Product productToAdd) {
 		productRepository1.createEntity(productToAdd);
 		if (productToAdd.getShelvesList().size() > 0) {
 			List <Shelf> newShelvesList=productToAdd.getShelvesList();
@@ -51,25 +52,46 @@ public class ProductBusiness {
 				oldShelvesList.add(item);
 			}
 			for (Shelf item : oldShelvesList) {
-				if (shelfRepository1.fetchEntityById(item.getId()).getProductInShelf() == null) {
-					shelfRepository1.fetchEntityById(item.getId()).setProductInShelf(productToAdd);
+				if (shelfRepository1.findById(item.getId()).getProductInShelf() == null) {
+					shelfRepository1.findById(item.getId()).setProductInShelf(productToAdd);
 				} else {
-					productRepository1.fetchEntityById(productToAdd.getId()).getShelvesList().remove(item);
+					productRepository1.findById(productToAdd.getId()).getShelvesList().remove(item);
 				}
 			}
 		}
-		return ProductDTO.turnProductToProductDTO(productRepository1.fetchEntityById(productToAdd.getId()));
+		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productToAdd.getId()));
 	}
-
-	public static void removeProductFromProductId(long productId) {
-		Product oldProduct = productRepository1.fetchEntityById(productId);
+	
+	public ProductDTO getAProduct(long productIdToSee) {
+		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productIdToSee));
+	}
+	
+	public void removeProductFromProductId(long productId) {
+		Product oldProduct = productRepository1.findById(productId);
 		if (oldProduct.getShelvesList().size() > 0) {
 			for (Shelf item : oldProduct.getShelvesList()) {
-				shelfRepository1.fetchEntityById(item.getId()).setProductInShelf(null);
+				item.setProductInShelf(null);
 			}
 		}
-		productRepository1.deleteEntityById(productId);
+		productRepository1.deleteEntity(productRepository1.findById(productId));
 	}
+	
+	public ProductDTO changeProduct(Product productToChange) {
+		if(!productRepository1.findById(productToChange.getId()).getShelvesList().isEmpty()){
+			for (Shelf item : productRepository1.findById(productToChange.getId()).getShelvesList()) {
+				shelfRepository1.findById(item.getId()).setProductInShelf(null);
+			}
+		}
+		if(!productToChange.getShelvesList().isEmpty()){
+			for (Shelf item : productToChange.getShelvesList()) {
+				shelfRepository1.findById(item.getId()).setProductInShelf(productToChange);
+			}
+		}
+		productRepository1.changeEntity(productToChange);
+		return ProductDTO.turnProductToProductDTO(productRepository1.findById(productToChange.getId()));
+	}
+/*
+	
 	public static boolean isThereThisShelf(long shelfIdToTest) {
 		if (shelfRepository1.fetchEntityById(shelfIdToTest) == null) {
 			return false;
@@ -94,22 +116,7 @@ public class ProductBusiness {
 		}
 	}
 
-	public static ProductDTO getAProduct(long productIdToSee) {
-		return ProductDTO.turnProductToProductDTO(productRepository1.fetchEntityById(productIdToSee));
-	}
+	
 
-	public static ProductDTO changeProduct(Product productToChange) {
-		if(!productRepository1.fetchEntityById(productToChange.getId()).getShelvesList().isEmpty()){
-			for (Shelf item : productRepository1.fetchEntityById(productToChange.getId()).getShelvesList()) {
-				shelfRepository1.fetchEntityById(item.getId()).setProductInShelf(null);
-			}
-		}
-		if(!productToChange.getShelvesList().isEmpty()){
-			for (Shelf item : productToChange.getShelvesList()) {
-				shelfRepository1.fetchEntityById(item.getId()).setProductInShelf(productToChange);
-			}
-		}
-		productRepository1.changeEntityById(productToChange);
-		return ProductDTO.turnProductToProductDTO(productRepository1.fetchEntityById(productToChange.getId()));
-	}*/
+	*/
 }

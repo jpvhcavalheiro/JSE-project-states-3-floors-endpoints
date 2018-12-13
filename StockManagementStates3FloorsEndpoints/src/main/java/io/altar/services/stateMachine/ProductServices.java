@@ -37,25 +37,25 @@ public class ProductServices {
 	public String seeHealth(){
 		return "Eureka! FUNCIONA!";
 	}
-	@POST
+	/*@POST
 	@Path("/provisory")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public void temporaryAddProduct(Product product){
 	productBusiness.provisoryAddNewProduct(product);
-	}
+	}*/
 	@PUT
 	@Path("/provisory")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
-	public void changeProduct(Product productToChange){
+	public void provisoryChangeProduct(Product productToChange){
 		productBusiness.provisoryChangeProduct(productToChange);
 	}
 	
 	@DELETE
 	@Path("/provisory/{id}")
 	@Consumes(MediaType.APPLICATION_JSON)
-	public void removeProduct(@PathParam("id") long id){
+	public void provisoryRemoveProduct(@PathParam("id") long id){
 		productBusiness.provisoryRemoveProductFromProductId(id);
 	}
 	
@@ -66,16 +66,37 @@ public class ProductServices {
 		return productBusiness.provisorySeeAProduct(id);
 	}
 	
-	/*
+	
 	@POST
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public ProductDTO createProduct(Product product){
-	return ProductBusiness.addNewProductToProductRepository(product);
+	return productBusiness.addNewProductToProductRepository(product);
 	}
 	
-
+	@GET
+	@Path("/seeproductid/{id}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public ProductDTO seeASingleProduct(@PathParam("id") long id){
+		return productBusiness.getAProduct(id);
+	}
+	
+	@DELETE
+	@Path("/{id}")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public void removeProduct(@PathParam("id") long id){
+		productBusiness.removeProductFromProductId(id);
+	}
+	
+	@PUT
+	@Path("/")
+	@Consumes(MediaType.APPLICATION_JSON)
+	public ProductDTO changeProduct(Product productToChange){
+		return productBusiness.changeProduct(productToChange);
+	}
+	
+/*
 	@GET
 	@Path("/seeall")
 	@Produces(MediaType.APPLICATION_JSON)
@@ -84,24 +105,9 @@ public class ProductServices {
 	}
 	
 	
-	@GET
-	@Path("/seeproductid/{id}")
-	@Produces(MediaType.APPLICATION_JSON)
-	public ProductDTO seeASingleProduct(@PathParam("id") long id){
-		return ProductBusiness.getAProduct(id);
-	}
+	
 
-	@DELETE
-	@Path("/{id}")
-	@Consumes(MediaType.APPLICATION_JSON)
-	public void removeProduct(@PathParam("id") long id){
-		ProductBusiness.removeProductFromProductId(id);
-	}
-	@PUT
-	@Path("/")
-	@Consumes(MediaType.APPLICATION_JSON)
-	public ProductDTO changeProduct(Product productToChange){
-		return ProductBusiness.changeProduct(productToChange);
-	}*/
+	
+	*/
 
 }
