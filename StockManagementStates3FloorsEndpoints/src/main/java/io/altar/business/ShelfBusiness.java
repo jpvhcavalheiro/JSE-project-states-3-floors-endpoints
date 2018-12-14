@@ -20,22 +20,10 @@ public class ShelfBusiness {
 	ShelfRepository shelfRepository1;
 
 	@Transactional
-	public void provisoryAddNewShelf(Shelf shelfToAdd) {
-		shelfRepository1.createEntity(shelfToAdd);
-	}
-
-	@Transactional
-	public void provisoryChangeShelf(Shelf shelfToChange) {
-		shelfRepository1.changeEntity(shelfToChange);
-	}
-
-	@Transactional
-	public void provisoryRemoveShelf(Shelf shelfToRemove) {
-		shelfRepository1.deleteEntity(shelfToRemove);
-	}
-
-	@Transactional
 	public ShelfDTO addNewShelfToShelfRepository(Shelf shelfToAdd) {
+		long productInShelfId=shelfToAdd.getProductInShelf().getId();
+		Product completeProductInShelf=productRepository1.findById(productInShelfId);
+		shelfToAdd.setProductInShelf(completeProductInShelf);
 		Shelf newShelf = shelfRepository1.createEntity(shelfToAdd);
 		if (newShelf.getProductInShelf() != null) {
 			productRepository1.findById(newShelf.getProductInShelf().getId()).getShelvesList().add(shelfToAdd);
@@ -68,7 +56,11 @@ public class ShelfBusiness {
 			Product newProduct = productRepository1.findById(shelfToEdit.getProductInShelf().getId());
 			newProduct.getShelvesList().add(shelfToEdit);
 			productRepository1.changeEntity(newProduct);
+			long updatedProductInShelfId=shelfToEdit.getProductInShelf().getId();
+			Product completeUpdatedProductInShelf=productRepository1.findById(updatedProductInShelfId);
+			shelfToEdit.setProductInShelf(completeUpdatedProductInShelf);
 		}
+		
 		shelfRepository1.changeEntity(shelfToEdit);
 		return ShelfDTO.turnShelfToShelfDTO(shelfRepository1.findById(shelfToEdit.getId()));
 	}

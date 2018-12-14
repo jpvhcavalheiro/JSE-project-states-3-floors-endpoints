@@ -5,9 +5,13 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Scanner;
 
 import javax.inject.Inject;
 import javax.transaction.Transactional;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.ResponseBuilder;
+import javax.ws.rs.core.Response.Status;
 
 import io.altar.DTOs.ProductDTO;
 import io.altar.models.Product;
@@ -111,41 +115,61 @@ public class ProductBusiness {
 	/*
 	 * 
 	 * public static boolean isThereThisShelf(long shelfIdToTest) { if
-	 * (shelfRepository1.fetchEntityById(shelfIdToTest) == null) { return false; }
-	 * else { return true; } }
+	 * (shelfRepository1.fetchEntityById(shelfIdToTest) == null) { return false;
+	 * } else { return true; } }
 	 * 
 	 * 
 	 * 
 	 * public static boolean isThereThisProduct(long productIdToTest) { if
-	 * (productRepository1.fetchEntityById(productIdToTest) == null) { return false;
-	 * } else { return true; } }
+	 * (productRepository1.fetchEntityById(productIdToTest) == null) { return
+	 * false; } else { return true; } }
 	 * 
 	 * 
 	 * 
 	 */
 
-	public boolean isAnOkProduct(Product product) {
-		try {
-			if(!product.getShelvesList().isEmpty()) {
-				for(Shelf item:product.getShelvesList()) {
-					if(shelfRepository1.findById(item.getId())==null) {
-						return false;
-					}
+	public ResponseBuilder isAnOkProduct(Product product) {
+		Scanner sc=new Scanner(""+product.getDiscount());
+		if(!sc.hasNextInt()){
+			sc.close();
+			return Response.status(Status.NOT_ACCEPTABLE);
+		}else{
+			sc.close();
+		}
+		sc=new Scanner(""+product.getIva());
+		if(!sc.hasNextInt()){
+			sc.close();
+			return Response.status(Status.NOT_ACCEPTABLE);
+		}else{
+			sc.close();
+		}
+		sc=new Scanner(""+product.getPvp());
+		if(!sc.hasNextInt()){
+			sc.close();
+			return Response.status(Status.NOT_ACCEPTABLE);
+		} else{
+			sc.close();
+		}
+		if (!product.getShelvesList().isEmpty()) {
+			for (Shelf item : product.getShelvesList()) {
+				if (shelfRepository1.findById(item.getId()) == null) {
+					sc.close();
+					return Response.status(Status.NOT_ACCEPTABLE);
 				}
 			}
-			if (!(product.getDiscount() >= 0 && product.getDiscount() <= 100 && product.getIva() >= 0
-					&& product.getIva() <= 100 && product.getPvp() >= 0)) {
-				return false;
-			}
-			return true;
-		}catch(NumberFormatException e){
-			return false;
 		}
+		if (!(product.getDiscount() >= 0 && product.getDiscount() <= 100 && product.getIva() >= 0
+				&& product.getIva() <= 100 && product.getPvp() >= 0)) {
+			sc.close();
+			return Response.status(Status.NOT_ACCEPTABLE);
+		}
+		sc.close();
 		
+		return Response.status(Status.OK);
 	}
 
 	public boolean thereIsThisProductId(long id) {
-		if(productRepository1.findById(id)!=null) {
+		if (productRepository1.findById(id) != null) {
 			return true;
 		}
 		return false;

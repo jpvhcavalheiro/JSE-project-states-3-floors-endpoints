@@ -17,7 +17,8 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.UriInfo;
 
 import io.altar.DTOs.ShelfDTO;
-import io.altar.business.*;
+import io.altar.business.ShelfBusiness;
+import io.altar.business.ProductBusiness;
 import io.altar.models.Product;
 import io.altar.models.Shelf;
 
@@ -37,28 +38,6 @@ public class ShelfServices {
 		return "Eureka! FUNCIONA BEM!";
 	}
 
-	@POST
-	@Path("/provisory")
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Produces(MediaType.APPLICATION_JSON)
-	public void provisoryCreateShelf(Shelf shelf) {
-		shelfBusiness.provisoryAddNewShelf(shelf);
-	}
-	
-	@PUT
-	@Path("/provisory")
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Produces(MediaType.APPLICATION_JSON)
-	public void provisoryChangeShelf(Shelf shelfToChange){
-		shelfBusiness.provisoryChangeShelf(shelfToChange);
-	}
-	
-	@DELETE
-	@Path("/provisory")
-	@Consumes(MediaType.APPLICATION_JSON)
-	public void removeShelf(Shelf shelfToRemove) {
-		shelfBusiness.provisoryRemoveShelf(shelfToRemove);
-	}
 	
 	@POST
 	@Path("/")

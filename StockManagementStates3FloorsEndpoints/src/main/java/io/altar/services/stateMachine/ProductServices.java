@@ -14,6 +14,9 @@ import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.ResponseBuilder;
+import javax.ws.rs.core.Response.Status;
 import javax.ws.rs.core.UriInfo;
 
 import io.altar.DTOs.ProductDTO;
@@ -34,39 +37,27 @@ public class ProductServices {
 		return "Eureka! FUNCIONA!";
 	}
 
-	
 	@POST
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public ProductDTO createProduct(Product product) {
-		if (productBusiness.isAnOkProduct(product)) {
-			return productBusiness.addNewProductToProductRepository(product);
-		} else {
-			mandar erro para cima
-		}
-		
+		return productBusiness.addNewProductToProductRepository(product);
+
 	}
 
 	@GET
 	@Path("/seeproductid/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public ProductDTO seeASingleProduct(@PathParam("id") long id) {
-		if(productBusiness.thereIsThisProductId(id)) {
-			return productBusiness.getAProduct(id);
-		}
-		mandar erro para cima
+		return productBusiness.getAProduct(id);
 	}
 
 	@DELETE
 	@Path("/{id}")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public void removeProduct(@PathParam("id") long id) {
-		if(productBusiness.thereIsThisProductId(id)) {
-			productBusiness.removeProductFromProductId(id);
-		} else {
-			mandar erro para cima
-		}
+		productBusiness.removeProductFromProductId(id);
 	}
 
 	@PUT
@@ -74,10 +65,8 @@ public class ProductServices {
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public ProductDTO changeProduct(Product productToChange) {
-		if(productBusiness.isAnOkProduct(productToChange)) {
-			return productBusiness.changeProduct(productToChange);
-		}
-		mandar erro para cima
+		return productBusiness.changeProduct(productToChange);
+
 	}
 
 	@GET
@@ -86,5 +75,4 @@ public class ProductServices {
 	public ArrayList<ProductDTO> seeAllProducts() {
 		return productBusiness.getAllProducts();
 	}
-
 }
