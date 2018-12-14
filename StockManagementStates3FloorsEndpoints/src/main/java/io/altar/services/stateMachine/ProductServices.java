@@ -34,56 +34,39 @@ public class ProductServices {
 		return "Eureka! FUNCIONA!";
 	}
 
-	@POST
-	@Path("/provisory")
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Produces(MediaType.APPLICATION_JSON)
-	public void temporaryAddProduct(Product product) {
-		productBusiness.provisoryAddNewProduct(product);
-	}
-
-	@PUT
-	@Path("/provisory")
-	@Consumes(MediaType.APPLICATION_JSON)
-	@Produces(MediaType.APPLICATION_JSON)
-	public void provisoryChangeProduct(Product productToChange) {
-		productBusiness.provisoryChangeProduct(productToChange);
-	}
-
-	@DELETE
-	@Path("/provisory/{id}")
-	@Consumes(MediaType.APPLICATION_JSON)
-	public void provisoryRemoveProduct(@PathParam("id") long id) {
-		productBusiness.provisoryRemoveProductFromProductId(id);
-	}
-
-	@GET
-	@Path("/provisory/{id}")
-	@Produces(MediaType.APPLICATION_JSON)
-	public ProductDTO provisorySeeAProduct(@PathParam("id") long id) {
-		return productBusiness.provisorySeeAProduct(id);
-	}
-
+	
 	@POST
 	@Path("/")
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public ProductDTO createProduct(Product product) {
-		return productBusiness.addNewProductToProductRepository(product);
+		if (productBusiness.isAnOkProduct(product)) {
+			return productBusiness.addNewProductToProductRepository(product);
+		} else {
+			mandar erro para cima
+		}
+		
 	}
 
 	@GET
 	@Path("/seeproductid/{id}")
 	@Produces(MediaType.APPLICATION_JSON)
 	public ProductDTO seeASingleProduct(@PathParam("id") long id) {
-		return productBusiness.getAProduct(id);
+		if(productBusiness.thereIsThisProductId(id)) {
+			return productBusiness.getAProduct(id);
+		}
+		mandar erro para cima
 	}
 
 	@DELETE
 	@Path("/{id}")
 	@Consumes(MediaType.APPLICATION_JSON)
 	public void removeProduct(@PathParam("id") long id) {
-		productBusiness.removeProductFromProductId(id);
+		if(productBusiness.thereIsThisProductId(id)) {
+			productBusiness.removeProductFromProductId(id);
+		} else {
+			mandar erro para cima
+		}
 	}
 
 	@PUT
@@ -91,7 +74,10 @@ public class ProductServices {
 	@Consumes(MediaType.APPLICATION_JSON)
 	@Produces(MediaType.APPLICATION_JSON)
 	public ProductDTO changeProduct(Product productToChange) {
-		return productBusiness.changeProduct(productToChange);
+		if(productBusiness.isAnOkProduct(productToChange)) {
+			return productBusiness.changeProduct(productToChange);
+		}
+		mandar erro para cima
 	}
 
 	@GET

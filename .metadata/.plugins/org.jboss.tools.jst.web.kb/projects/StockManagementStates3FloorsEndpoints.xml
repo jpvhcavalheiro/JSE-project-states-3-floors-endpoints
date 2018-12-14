@@ -3,9 +3,9 @@
  <depends-on-projects/>
  <used-by-projects/>
  <paths>
-  <path value="/Users/alunotarde/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
-  <path value="/Users/alunotarde/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
-  <path value="/Users/alunotarde/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
+  <path value="C:/Users/João/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar"/>
+  <path value="C:/Users/João/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar"/>
+  <path value="C:/Users/João/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar"/>
  </paths>
  <validation>
   <core validator-id="jsf-verification"/>
@@ -13,20 +13,20 @@
    <linked-resource name="%1;%2;" path="%0"/>
    <linked-resource name="%1;%2;" path="%3"/>
    <linked-resource name="%1;%2;" path="%4"/>
-   <linked-resource name="%5;" path="%1"/>
-   <linked-resource name="%6;" path="%2"/>
+   <linked-resource name="%5;" path="%2"/>
+   <linked-resource name="%6;" path="%1"/>
   </core>
   <core validator-id="batch-verification"/>
   <el>
-   <linked-el length="21" name="%7" offset="869" path="%8"/>
-   <linked-el length="21" name="%9" offset="869" path="%8"/>
+   <linked-el length="21" name="%7" offset="891" path="%8"/>
+   <linked-el length="21" name="%9" offset="891" path="%8"/>
   </el>
  </validation>
  <aliases>
   <alias
    path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/business/ProductBusiness.java" value="%1"/>
   <alias
-   path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/services/stateMachine/ShelfServices.java" value="%6"/>
+   path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/services/stateMachine/ShelfServices.java" value="%5"/>
   <alias
    path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/repository/EntityRepository.java" value="%4"/>
   <alias
@@ -36,7 +36,7 @@
   <alias path="project.artifactId" value="%7"/>
   <alias path="project" value="%9"/>
   <alias
-   path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/services/stateMachine/ProductServices.java" value="%5"/>
+   path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/services/stateMachine/ProductServices.java" value="%6"/>
   <alias path="/StockManagementStates3FloorsEndpoints/pom.xml" value="%8"/>
   <alias
    path="/StockManagementStates3FloorsEndpoints/src/main/java/io/altar/repository/ShelfRepository.java" value="%3"/>

@@ -111,16 +111,43 @@ public class ProductBusiness {
 	/*
 	 * 
 	 * public static boolean isThereThisShelf(long shelfIdToTest) { if
-	 * (shelfRepository1.fetchEntityById(shelfIdToTest) == null) { return false;
-	 * } else { return true; } }
+	 * (shelfRepository1.fetchEntityById(shelfIdToTest) == null) { return false; }
+	 * else { return true; } }
 	 * 
 	 * 
 	 * 
 	 * public static boolean isThereThisProduct(long productIdToTest) { if
-	 * (productRepository1.fetchEntityById(productIdToTest) == null) { return
-	 * false; } else { return true; } }
+	 * (productRepository1.fetchEntityById(productIdToTest) == null) { return false;
+	 * } else { return true; } }
 	 * 
 	 * 
 	 * 
 	 */
+
+	public boolean isAnOkProduct(Product product) {
+		try {
+			if(!product.getShelvesList().isEmpty()) {
+				for(Shelf item:product.getShelvesList()) {
+					if(shelfRepository1.findById(item.getId())==null) {
+						return false;
+					}
+				}
+			}
+			if (!(product.getDiscount() >= 0 && product.getDiscount() <= 100 && product.getIva() >= 0
+					&& product.getIva() <= 100 && product.getPvp() >= 0)) {
+				return false;
+			}
+			return true;
+		}catch(NumberFormatException e){
+			return false;
+		}
+		
+	}
+
+	public boolean thereIsThisProductId(long id) {
+		if(productRepository1.findById(id)!=null) {
+			return true;
+		}
+		return false;
+	}
 }
