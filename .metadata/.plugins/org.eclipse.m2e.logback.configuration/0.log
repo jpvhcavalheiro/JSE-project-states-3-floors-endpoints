@@ -3117,3 +3117,19 @@
 2018-12-14 18:59:02,626 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
 2018-12-14 18:59:02,628 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-12-14 18:59:02,628 [Worker-138] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/test/resources
+2018-12-14 19:43:43,474 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 19:43:43,485 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-14 19:43:43,488 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 19:43:43,489 [Worker-153] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/test/resources
+2018-12-14 19:43:50,106 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 19:43:50,117 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-14 19:43:50,119 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 19:43:50,119 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/test/resources
+2018-12-14 19:46:14,659 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 19:46:14,668 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-14 19:46:14,672 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 19:46:14,672 [Worker-151] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/test/resources
+2018-12-14 19:47:06,544 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 19:47:06,545 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-12-14 19:47:06,547 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-12-14 19:47:06,547 [Worker-155] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/alunotarde/Documents/JSE-project-states-3-floors-endpoints/StockManagementStates3FloorsEndpoints/src/test/resources

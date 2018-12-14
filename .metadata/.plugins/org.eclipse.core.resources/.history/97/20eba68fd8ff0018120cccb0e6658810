@@ -87,8 +87,8 @@ public class ProductBusiness {
 	}
 
 	@Transactional
-	public ProductDTO changeProduct(ProductDTO productDTOToChange) {
-		Product previousProduct = productRepository1.findById(productDTOToChange.getId());
+	public ProductDTO changeProduct(Product productToChange) {
+		Product previousProduct = productRepository1.findById(productToChange.getId());
 		if (!previousProduct.getShelvesList().isEmpty()) {
 			for (Shelf item : previousProduct.getShelvesList()) {
 				item.setProductInShelf(null);
